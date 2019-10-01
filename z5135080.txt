@@ -1,0 +1,20 @@
+Week 1
+Research potential projects.
+
+Week 2
+Group formed in webcms3. As a scrum master, I created the GitHub account for the team. 
+Project Accommodation Web Portal is selected by group members. I wrote the Epic (Visitor Request Module part) 
+and Weekly Meeting Times sections of the proposal. I also researched related website such as airhub.
+
+Week 3
+I wrote the  Project Methodoldgy, Team Skill Set and Stand-up/Sprint Schedule sections 
+of the proposal. I also found and discussed with the team all available software tools 
+and libraries that we can use for the project.
+
+Week 4
+Week 5
+Week 6
+Week 7
+Week 8
+Week 9
+Week 10
