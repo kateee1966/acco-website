@@ -1,6 +1,5 @@
 week2
 
-group formed
+Group formed. Some discussion and comparison about the projects, and preliminarily decided to choose project one --- X-o-Bot. Then discussed the basic methods and techniques we will use in the development.
 
 week3
-
