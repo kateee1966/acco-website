@@ -1,12 +1,21 @@
+COMP3900 Working Diary
+Student Name: Zhichao He
+zID: z5282955
+-----------------------------------------------------------------------------------------------------------
+week1
+
+Get familiar with the projects and do some research about them. 
+-----------------------------------------------------------------------------------------------------------
 week2
 
 Group formed. Some discussion and comparison about the projects, and preliminarily decided to choose 
 project one --- X-o-Bot. Then discussed the basic methods and techniques we will use in the development.
 Start to write the Project Proposal, I focus on the Accommonadation Request Module part.
-
+-----------------------------------------------------------------------------------------------------------
 week3
 
 Discuss about the UI design and some methods to connect the frontend and backend. Further discussed the 
 project and more functions. Add the classification part which differentiate different type of accommondations.
 Add some features about Google Maps and Auto-Recommendation system to the project, and add 2 Epics to the 
 Proposal which describe the two features.
+-----------------------------------------------------------------------------------------------------------
