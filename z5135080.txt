@@ -10,8 +10,12 @@ Week 3
 I wrote the  Project Methodoldgy, Team Skill Set and Stand-up/Sprint Schedule sections 
 of the proposal. I also found and discussed with the team all available software tools 
 and libraries that we can use for the project.
-
+Visitor Request Module Epic User Interface design section
+User Information Management System Epic login page/ register page User
+Interface design section
 Week 4
+User Information Management System Epic login page/ register page User
+Interface design section
 Week 5
 Week 6
 Week 7
