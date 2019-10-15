@@ -1,29 +1,41 @@
+COMP3900 Working Diary
+
+Student Name: Wenfei Guo
+
+zID: z5135080
+
+-----------------------------------------------------------------------------------------------------------
 Week 1
 Research potential projects. Collecting data and view all sample project. 
 In order to have a better understanding of different projects and prepare for discussion. 
 
+-----------------------------------------------------------------------------------------------------------
 Week 2
 Group formed in webcms3. As a scrum master, I created the GitHub account for the team. 
-Project 7 Accommodation Web Portal is selected by group members. Together with Tao Bai, I wrote the 
-SYSTEM MODULES AND FLOW section. In addition, I wrote the Epic (Visitor Request Module part), 
-Project Methodoldgy and Weekly Meeting Times sections of the proposal. 
+Project 7 Accommodation Web Portal is selected by group members. Together with Tao Bai, 
+I wrote the SYSTEM MODULES AND FLOW section. In addition, I wrote the Epic (Visitor Request
+Module part), Project Methodoldgy and Weekly Meeting Times sections of the proposal. 
 I also researched related website such as airhub.
 
+-----------------------------------------------------------------------------------------------------------
 Week 3
 I wrote the  Project Team Skill Set and Stand-up/Sprint Schedule sections 
 of the proposal. I also found and discussed with the team all available software tools 
 and libraries that we can use for the project. Together with Tao Bai, I wrote the 
 Visitor Request Module Epic‘s User Interface design section.
 
+-----------------------------------------------------------------------------------------------------------
 Week 4
-I designed and wrote User Information Management System Epic login page User Interface design section and
-User Information Management System Epic  register page User Interface design section. The programming language
-I applied is HTML and CSS.
+I designed and wrote User Information Management System Epic login page User Interface design 
+section and User Information Management System Epic  register page User Interface design section. 
+The programming language I applied is HTML and CSS.
 
+-----------------------------------------------------------------------------------------------------------
 Week 5
 I researched related website such as airhub. In addition, Tao and I are learning React in order to display
 the website in a better way.
 
+-----------------------------------------------------------------------------------------------------------
 Week 6
 Week 7
 Week 8
