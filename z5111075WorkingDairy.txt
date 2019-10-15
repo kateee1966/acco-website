@@ -16,4 +16,9 @@ In the second week, lecturer released Project Seven so our team decided to do th
 
 In the third week, we start to finish the project proposal. I modified the background part and aim part. Also, I provided the architecture mock-up. Some additional idea was added into the proposal (like Google map service and extra hotel service). In the programming part, although I learned MySQL before, I still need time to learn how to build the backend  of the websites. I also reviewed JavaSE in this week because we use Java as the backend. In the next week, our backend group need to finish the basic structure of the backend and implements some interface in order to catch up the schedule.
 
+07/10/2019 - 14/10/2019 
+
+In the forth week. I set up the basic structure of this project. In the model package, I create some objects that we will use in the MySQL. In the service package, I finished some basic function or behavior that we will use in the user login. Also, I finished the encrypt functionand decrypt function for user part. In the weekend, I learned how to use Tomcat so in the next week wew can connect front end and back end to implement the user sign up and sign in. 
+
+
 
