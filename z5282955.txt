@@ -19,3 +19,7 @@ project and more functions. Add the classification part which differentiate diff
 Add some features about Google Maps and Auto-Recommendation system to the project, and add 2 Epics to the 
 Proposal which describe the two features.
 -----------------------------------------------------------------------------------------------------------
+week4
+
+Set up the basic structure of this project. Based on the In the model package, I create some objects that we will use in the MySQL. In the service package, I finished some basic function or behavior that we will use in the user login. Also, I finished the encrypt functionand decrypt function for user part. In the weekend, I learned how to use Tomcat so in the next week wew can connect front end and back end to implement the user sign up and sign in. 
+
