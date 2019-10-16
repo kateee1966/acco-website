@@ -12,8 +12,8 @@ public class CompanyAccommodation extends Accommodation {
     private boolean breakfast;
     private boolean pickupAndDeliveryService;
 
-    public CompanyAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int star, String roomType, int bedNumber, String bedType, boolean breakfast, boolean pickupAndDeliveryService) {
-        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, owner);
+    public CompanyAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int guest, int star, String roomType, int bedNumber, String bedType, boolean breakfast, boolean pickupAndDeliveryService) {
+        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, owner, guest);
         this.star = star;
         this.roomType = roomType;
         this.bedNumber = bedNumber;
