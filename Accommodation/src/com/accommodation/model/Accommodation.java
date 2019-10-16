@@ -11,8 +11,9 @@ public class Accommodation {
     private String address;
     private int postCode;
     private User owner;
+    private int Guest;
 
-    public Accommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner) {
+    public Accommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int guest) {
         this.accommodationID = accommodationID;
         this.photoPath = photoPath;
         this.pricePerDay = pricePerDay;
@@ -21,6 +22,7 @@ public class Accommodation {
         this.address = address;
         this.postCode = postCode;
         this.owner = owner;
+        Guest = guest;
     }
 
     public User getOwner() {
@@ -90,4 +92,8 @@ public class Accommodation {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public int getGuest() { return Guest; }
+
+    public void setGuest(int guest) { Guest = guest; }
 }
