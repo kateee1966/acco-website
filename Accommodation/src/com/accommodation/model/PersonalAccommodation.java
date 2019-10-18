@@ -17,11 +17,10 @@ public class PersonalAccommodation extends Accommodation {
     private int airCondition;
     private int television;
     private int dryer;
-
     private String descriptionInDetails;
 
-    public PersonalAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int howLongHowBeenDecorated, int roomNumber, int bedNumber, int bathroomNumber, int kitchenNumber, int balconyNumber, int parking, int washingMachine, int heater, int airCondition, int television, int dryer, String descriptionInDetails) {
-        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, owner);
+    public PersonalAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int guest, int howLongHowBeenDecorated, int roomNumber, int bedNumber, int bathroomNumber, int kitchenNumber, int balconyNumber, int parking, int washingMachine, int heater, int airCondition, int television, int dryer, String descriptionInDetails) {
+        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, owner, guest);
         this.howLongHowBeenDecorated = howLongHowBeenDecorated;
         this.roomNumber = roomNumber;
         this.bedNumber = bedNumber;
@@ -36,6 +35,8 @@ public class PersonalAccommodation extends Accommodation {
         this.dryer = dryer;
         this.descriptionInDetails = descriptionInDetails;
     }
+
+
 
     public int getParking() {
         return parking;
