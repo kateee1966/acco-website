@@ -33,8 +33,8 @@ Week 5
 1, In lab Shengchen taught me to use IDEA because he said it will easy to link backend and frontend.
 2, Use IDEA to build userInformationUpdate pages and write some css and JavaScript files to let it looks good.
 3, Rewrite sign up page to add more functions for user can update necessary Informations when they register.
-4, Discuss with Wenfei about filters and buttons in search pages, provider some personal advise.
-5, link these buttons with suitable pages. 
+4, Discussed with Wenfei about filters and buttons in search pages, provider some personal suggests.
+5, linked these buttons with matched pages. 
 
 -----------------------------------------------------------------------------
 Week 6
