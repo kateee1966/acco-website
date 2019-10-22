@@ -19,7 +19,7 @@ I also researched related website such as airhub.
 
 -----------------------------------------------------------------------------------------------------------
 Week 3
-I wrote the  Project Team Skill Set and Stand-up/Sprint Schedule sections 
+I wrote the Project Team Skill Set and Stand-up/Sprint Schedule sections 
 of the proposal. I also found and discussed with the team all available software tools 
 and libraries that we can use for the project. Together with Tao Bai, I wrote the 
 Visitor Request Module Epic‘s User Interface design section.
@@ -33,10 +33,14 @@ The programming language I applied is HTML and CSS.
 -----------------------------------------------------------------------------------------------------------
 Week 5
 I researched related website such as airhub. In addition, Tao and I are learning React in order to display
-the website in a better way.
+the website in a better way. I searched related pictures of accommodaition in order to show search result 
+page in a better way. I edited result page for better look.   
 
 -----------------------------------------------------------------------------------------------------------
 Week 6
+I designed and wrote User Information Management System Epic accommodation information page User Interface design 
+section.
+-----------------------------------------------------------------------------------------------------------
 Week 7
 Week 8
 Week 9
