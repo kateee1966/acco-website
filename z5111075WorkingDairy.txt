@@ -12,7 +12,7 @@ The first week, the main aim of our team is to select an appropriate project. Mo
 
 In the second week, lecturer released Project Seven so our team decided to do the Project Seven, an accommodation website. The main tasks I have done in this week is finished my part in the proposal, my part is the epics of managing user information and user feedback management. My main job in this project is the backend management so in the next week I need to rent a net server or using Google cloud to make sure our team will have a database to store the account information. Also, I need to improve what I written in the proposal and help the whole team to finish the final proposal. 
 
-30/09/2019 - 06/10/2019
+30/09/2019 - 07/10/2019
 
 In the third week, we start to finish the project proposal. I modified the background part and aim part. Also, I provided the architecture mock-up. Some additional idea was added into the proposal (like Google map service and extra hotel service). In the programming part, although I learned MySQL before, I still need time to learn how to build the backend  of the websites. I also reviewed JavaSE in this week because we use Java as the backend. In the next week, our backend group need to finish the basic structure of the backend and implements some interface in order to catch up the schedule.
 
@@ -20,5 +20,7 @@ In the third week, we start to finish the project proposal. I modified the backg
 
 In the forth week. I set up the basic structure of this project. In the model package, I create some objects that we will use in the MySQL. In the service package, I finished some basic function or behavior that we will use in the user login. Also, I finished the encrypt functionand decrypt function for user part. In the weekend, I learned how to use Tomcat so in the next week wew can connect front end and back end to implement the user sign up and sign in. 
 
+14/10/2019 - 21/10/2019
 
+In the fifth week. I write some basic objects that we will use in the model package. Secondly, I learned structure of HTTP and how to use servlet. In the next week, I will finish the functions in sign up servlet, sign in servlet and publish new accommodation servlet.
 

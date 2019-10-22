@@ -6,6 +6,5 @@ public class Order {
     private User seller;
     private User buyer;
     private Date orderCreationDate;
-    private
 
 }
