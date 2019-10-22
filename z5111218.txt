@@ -14,7 +14,30 @@ Week 2
 Week 3
 1, Because a new project be released, after discuss in lab we change to project 7
 2, Discuss about which language we might be used in this project
-3, Write project proposal, my part is "Accommodation Advertising Module" and I finished it in the end of this week. Because my main job is frontend so I need to practice my skill about frontend language like react to build a delicate and all-sided website.
+3, Write project proposal, my part is "Accommodation Advertising Module" 
+and I finished it in the end of this week. Because my main job is frontend 
+so I need to practice my skill about frontend language like react to build a delicate and all-sided website.
 
+-----------------------------------------------------------------------------
+Week 4
+1, Begin to build first web: homepage.html, in this page the most difficult thing for me
+is design a suitable calendar for users to choose date. I try two ways to write this and 
+after discuss with Wenfei we choose the second way: scope choose, it means we just need 
+one box, user can choose check in date and check out date in one calendar.
+2, Build provider page for users to provider information of their place. I view many 
+webpages like airbnb, anjuke, mayibanjia to help me have enough inspiration to design a 
+good web and I wrote some css and JavaScript files to decorate provider page.
 
+-----------------------------------------------------------------------------
+Week 5
+1, In lab Shengchen taught me to use IDEA because he said it will easy to link backend and frontend.
+2, Use IDEA to build userInformationUpdate pages and write some css and JavaScript files to let it looks good.
+3, Rewrite sign up page to add more functions for user can update necessary Informations when they register.
+4, Discussed with Wenfei about filters and buttons in search pages, provider some personal suggests.
+5, linked these buttons with matched pages. 
+
+-----------------------------------------------------------------------------
+Week 6
+1, build editInformation page and personalPage page for user and view/edit their information
+2, 
 
