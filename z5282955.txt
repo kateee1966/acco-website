@@ -25,3 +25,9 @@ Based on the framework of the project, I add some java objects and some features
 used in the database. I check the functions of the service package and make some modifications and added 
 some new functions. I start to think about the design of the database based on the requirements and functions.
 I also review some knowledge about SQL and primary key for designing the database.
+-----------------------------------------------------------------------------------------------------------
+week5
+
+Add more objects and some attributes to these objects, add the constructors, getters and setters to the objects.
+I read some sourse code which implements the sign in and sign up functionality. 
+Continued learning about the database buliding techniques.
