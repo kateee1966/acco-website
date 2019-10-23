@@ -6,13 +6,42 @@
     float: left;
     background-color: #2196F3;
     color: #ffffff;
-    width: 200px;
-    line-height: 200px;
+    width: 100px;
+    line-height: 100px;
     text-align: center;
-    margin: 10px;
+    margin: 2px;
     display: none; /* Hidden by default */
 }
 
+.filterDiv img {
+    width: 100%;
+    height: auto;
+}
+
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.filterDiv .btna {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filterDiv .btna:hover {
+    background-color: black;
+}
 /* The "show" class is added to the filtered elements */
 .show {
     display: block;
