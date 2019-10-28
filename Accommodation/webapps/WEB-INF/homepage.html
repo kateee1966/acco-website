@@ -9,75 +9,47 @@
         <style>
 
                 body{
-                    background: linear-gradient(
-                    rgba(0, 0, 0, 0), 
-                  rgba(0, 0, 0, 0)
-                ),url('https://static.wixstatic.com/media/3e18d0_9b5f306e8b4640a68d1c8619d252c79d~mv2_d_2417_1536_s_2.jpg/v1/fill/w_1600,h_1016,al_c,q_90/file.jpg');
+                    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://static.wixstatic.com/media/3e18d0_9b5f306e8b4640a68d1c8619d252c79d~mv2_d_2417_1536_s_2.jpg/v1/fill/w_1600,h_1016,al_c,q_90/file.jpg');
                     background-attachment: fixed;
                     background-repeat: no-repeat;
                     background-size: cover
                 }
-                .datepicker {
-                        border: 1px solid #ccc;
-                        border-radius: 4px;
-                        width: 230px;
-                        padding: 5px;
-                        line-height: 24px;
-                    }
-                    .datepicker:focus {
-                        outline: none;
-                        border: 1px solid #1abc9c;
-                    }
-               
-                /* 下拉按钮样式 */
-                .dropbtn {
-                    border: 1px solid rgb(250, 234, 234);
-                    border-radius: 4px;
-                    width: 230px;
-                    padding: 5px;
-                    line-height: 24px;
-                }
 
-                /* 容器 <div> - 需要定位下拉内容 */
-                .dropdown {
-                    position: relative;
+                .button_style {
+                    border-radius: 4px;
+                    background: linear-gradient(to right, #bac8cf, #edf2f5) !important;
+                    border: none;
+                    color: #000000;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 22px;
+                    padding: 10px;
+                    width: 240px;
+                    transition: all 0.4s;
+                    cursor: pointer;
+                    margin: 5px;
+                }
+                .button_style span {
+                    cursor: pointer;
                     display: inline-block;
+                    position: relative;
+                    transition: 0.4s;
                 }
-
-                /* 下拉内容 (默认隐藏) */
-                .dropdown-content {
-                    display: none;
+                .button_style span:after {
+                    content: '\00bb';
                     position: absolute;
-                    background-color: #f9f9f9;
-                    min-width: 160px;
-                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    opacity: 0;
+                    top: 0;
+                    right: -20px;
+                    transition: 0.5s;
                 }
-
-                /* 下拉菜单的链接 */
-                .dropdown-content a {
-                    color: black;
-                    border: 1px solid rgb(250, 234, 234);
-                    border-radius: 4px;
-                    width: 230px;
-                    padding: 5px;
-                    line-height: 24px;
-                    text-decoration: none;
-                    display: block;
+                .button_style:hover span {
+                    padding-right: 25px;
                 }
-
-                /* 鼠标移上去后修改下拉菜单链接颜色 */
-                .dropdown-content a:hover {background-color: #f1f1f1}
-
-                /* 在鼠标移上去后显示下拉菜单 */
-                .dropdown:hover .dropdown-content {
-                    display: block;
+                .button_style:hover span:after {
+                    opacity: 1;
+                    right: 0;
                 }
-
-                /* 当下拉内容显示后修改下拉按钮的背景颜色 */
-                .dropdown:hover .dropbtn {
-                    background-color: white;
-}
-
             
             </style>
         <fieldset style="border-top-color: transparent; border-left-color: transparent; border-right-color: transparent">
@@ -94,9 +66,10 @@
             <br>
             <br>
             
-    <form style="width : 400px;margin-left:60%">
-            <h2 style ="font-family:Trebuchet MS; font-size: 40px;"> Find places to stay on our web!</h2>
-            <p>Discover entire homes and private rooms perfect for any trip.</p>
+    <form style="width : 400px;margin-left:65%">
+            <h2 style ="font-family:Trebuchet MS; font-size: 40px;"> Find places to
+                <br>stay on our web!</h2>
+            <p style="font-family: 'Arial'">Discover entire homes and private rooms <br>perfect for any trip.</p>
             <br>
             <p style ="font-family:Trebuchet MS;" > Where</p>
             <input type="text" name="location" placeholder="Where" style="border: 1px solid rgb(250, 234, 234);
@@ -104,7 +77,7 @@
             width: 230px;
             padding: 5px;
             line-height: 24px;"><br>
-            <br>
+
            
             <p style ="font-family:Trebuchet MS;">Check in - Check out </p>
             <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
@@ -141,8 +114,7 @@
 
             <p style ="font-family:Trebuchet MS;" > Guest</p>
 
-            
-            <select name="burger_size" style="border: 1px solid rgb(250, 234, 234);
+            <select name="guest" style="border: 1px solid rgb(250, 234, 234);
             border-radius: 4px;
             width: 240px;
             height: 40px;
@@ -164,18 +136,17 @@
             <br>
             <br>
             <br>
-<<<<<<< HEAD
 
 
         </form>
-        <button onclick="window.location.href='search.html'" style=" margin-left:60%;background-color: gray ;border: 1px solid rgb(250, 234, 234);
-=======
-            <button onclick="window.location.href='searchpage.html'" style=" background-color: gray ;border: 1px solid rgb(250, 234, 234);
->>>>>>> 33e147757eec99949703159fcb5058456d098374
+       <!--
+        <button class="button_style" onclick="window.location.href='searchpage.html'" style=" margin-left:60%;background-color: gray ;border: 1px solid rgb(250, 234, 234);
             border-radius: 4px;
             width: 240px;
             padding: 5px;
             line-height: 24px;" > Search</button>
+            -->
+        <button class="button_style" style="margin-left: 65%" onclick="window.location.href='searchpage.html'" target="_blank" rel="nofollow"><span>Search</span></button>
     </body>
 </html>
 
