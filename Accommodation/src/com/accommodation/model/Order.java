@@ -7,8 +7,43 @@ public class Order {
     private User seller;
     private User buyer;
     private Date orderCreationDate;
-<<<<<<< HEAD
 
-=======
->>>>>>> a4eed5c188d8cd7ef97e8f1981fcf2a32561142b
+    public Order(String accommodationID, User seller, User buyer, Date orderCreationDate) {
+        this.accommodationID = accommodationID;
+        this.seller = seller;
+        this.buyer = buyer;
+        this.orderCreationDate = orderCreationDate;
+    }
+
+    public String getAccommodationID() {
+        return accommodationID;
+    }
+
+    public void setAccommodationID(String accommodationID) {
+        this.accommodationID = accommodationID;
+    }
+
+    public User getSeller() {
+        return seller;
+    }
+
+    public void setSeller(User seller) {
+        this.seller = seller;
+    }
+
+    public User getBuyer() {
+        return buyer;
+    }
+
+    public void setBuyer(User buyer) {
+        this.buyer = buyer;
+    }
+
+    public Date getOrderCreationDate() {
+        return orderCreationDate;
+    }
+
+    public void setOrderCreationDate(Date orderCreationDate) {
+        this.orderCreationDate = orderCreationDate;
+    }
 }

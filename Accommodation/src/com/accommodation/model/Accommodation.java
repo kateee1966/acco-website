@@ -2,18 +2,23 @@ package com.accommodation.model;
 
 import java.util.ArrayList;
 
-public class Accommodation {
-    private String accommodationID;
-    private ArrayList<String> photoPath;
-    private double pricePerDay;
-    private String city;
-    private String suburbs;
-    private String address;
-    private int postCode;
-    private User owner;
-    private int guest;
+import java.util.Date;
 
-    public Accommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int guest) {
+public class Accommodation {
+    private String accommodationID; //
+    private ArrayList<String> photoPath;
+    private double pricePerDay; //
+    private String city; //
+    private String suburbs; //
+    private String address;
+    private int postCode; //
+    private String hotelType;
+    private Date avaliable;
+    private Boolean pet;
+    private User owner;
+    private int guestNum;
+
+    public Accommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, String hotelType, Date avaliable, Boolean pet, User owner, int guestNum) {
         this.accommodationID = accommodationID;
         this.photoPath = photoPath;
         this.pricePerDay = pricePerDay;
@@ -21,28 +26,11 @@ public class Accommodation {
         this.suburbs = suburbs;
         this.address = address;
         this.postCode = postCode;
+        this.hotelType = hotelType;
+        this.avaliable = avaliable;
+        this.pet = pet;
         this.owner = owner;
-        this.guest = guest;
-    }
-
-    public User getOwner() {
-        return owner;
-    }
-
-    public void setOwner(User owner) {
-        this.owner = owner;
-    }
-
-    public int getPostCode() {
-        return postCode;
-    }
-
-    public void setPostCode(int postCode) {
-        this.postCode = postCode;
-    }
-
-    public Accommodation(){
-
+        this.guestNum = guestNum;
     }
 
     public String getAccommodationID() {
@@ -93,7 +81,52 @@ public class Accommodation {
         this.address = address;
     }
 
-    public int getGuest() { return guest; }
+    public int getPostCode() {
+        return postCode;
+    }
 
-    public void setGuest(int guest) { this.guest = guest; }
+    public void setPostCode(int postCode) {
+        this.postCode = postCode;
+    }
+
+    public String getHotelType() {
+        return hotelType;
+    }
+
+    public void setHotelType(String hotelType) {
+        this.hotelType = hotelType;
+    }
+
+    public Date getAvaliable() {
+        return avaliable;
+    }
+
+    public void setAvaliable(Date avaliable) {
+        this.avaliable = avaliable;
+    }
+
+    public Boolean getPet() {
+        return pet;
+    }
+
+    public void setPet(Boolean pet) {
+        this.pet = pet;
+    }
+
+    public User getOwner() {
+        return owner;
+    }
+
+    public void setOwner(User owner) {
+        this.owner = owner;
+    }
+
+    public int getGuestNum() {
+        return guestNum;
+    }
+
+    public void setGuestNum(int guestNum) {
+        this.guestNum = guestNum;
+    }
+
 }

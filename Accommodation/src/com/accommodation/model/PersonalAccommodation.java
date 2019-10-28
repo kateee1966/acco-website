@@ -1,6 +1,7 @@
 package com.accommodation.model;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class PersonalAccommodation extends Accommodation {
     private int howLongHowBeenDecorated;
@@ -11,7 +12,6 @@ public class PersonalAccommodation extends Accommodation {
     private int kitchenNumber;
     private int balconyNumber;
     private int parking;
-
     private int washingMachine;
     private int heater;
     private int airCondition;
@@ -19,8 +19,8 @@ public class PersonalAccommodation extends Accommodation {
     private int dryer;
     private String descriptionInDetails;
 
-    public PersonalAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int guest, int howLongHowBeenDecorated, int roomNumber, int bedNumber, int bathroomNumber, int kitchenNumber, int balconyNumber, int parking, int washingMachine, int heater, int airCondition, int television, int dryer, String descriptionInDetails) {
-        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, owner, guest);
+    public PersonalAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, String hotelType, Date avaliable, Boolean pet, User owner, int guestNum, int howLongHowBeenDecorated, int roomNumber, int bedNumber, int bathroomNumber, int kitchenNumber, int balconyNumber, int parking, int washingMachine, int heater, int airCondition, int television, int dryer, String descriptionInDetails) {
+        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, hotelType, avaliable, pet, owner, guestNum);
         this.howLongHowBeenDecorated = howLongHowBeenDecorated;
         this.roomNumber = roomNumber;
         this.bedNumber = bedNumber;
@@ -34,16 +34,6 @@ public class PersonalAccommodation extends Accommodation {
         this.television = television;
         this.dryer = dryer;
         this.descriptionInDetails = descriptionInDetails;
-    }
-
-
-
-    public int getParking() {
-        return parking;
-    }
-
-    public void setParking(int parking) {
-        this.parking = parking;
     }
 
     public int getHowLongHowBeenDecorated() {
@@ -92,6 +82,14 @@ public class PersonalAccommodation extends Accommodation {
 
     public void setBalconyNumber(int balconyNumber) {
         this.balconyNumber = balconyNumber;
+    }
+
+    public int getParking() {
+        return parking;
+    }
+
+    public void setParking(int parking) {
+        this.parking = parking;
     }
 
     public int getWashingMachine() {

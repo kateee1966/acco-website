@@ -1,6 +1,7 @@
 package com.accommodation.model;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class CompanyAccommodation extends Accommodation {
     private int star;
@@ -12,18 +13,14 @@ public class CompanyAccommodation extends Accommodation {
     private boolean breakfast;
     private boolean pickupAndDeliveryService;
 
-    public CompanyAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, User owner, int guest, int star, String roomType, int bedNumber, String bedType, boolean breakfast, boolean pickupAndDeliveryService) {
-        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, owner, guest);
+    public CompanyAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, String hotelType, Date avaliable, Boolean pet, User owner, int guestNum, int star, String roomType, int bedNumber, String bedType, boolean breakfast, boolean pickupAndDeliveryService) {
+        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, hotelType, avaliable, pet, owner, guestNum);
         this.star = star;
         this.roomType = roomType;
         this.bedNumber = bedNumber;
         this.bedType = bedType;
         this.breakfast = breakfast;
         this.pickupAndDeliveryService = pickupAndDeliveryService;
-    }
-
-    public CompanyAccommodation(){
-
     }
 
     public int getStar() {
