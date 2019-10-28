@@ -1,10 +1,220 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+
+    <meta charset="utf-8">
+    <title>Accommodation Information</title>
+
+
+    <link rel="stylesheet" href="../css/icon_info.css">
+    <link rel="stylesheet" href="../css/hotel_info.css">
+    <link rel="stylesheet" href="../css/list_grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="../css/form_ie.css">
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-$END$
+
+
+<h1  style="color: dimgrey">Accommodation Information<br /><span> </span></h1>
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <p style="text-align:center"><img src="../images/acco/h2/roomh2.jpg" style="width:600px"></p>
+
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <p style="text-align:center"><img src="../images/acco/h2/room5h2.jpg" style="width:600px"></p>
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <p style="text-align:center"><img src="../images/acco/h2/room3h2.jpg" style="width:600px"></p>
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <p style="text-align:center"><img src="../images/acco/h2/room4h2.jpg" style="width:600px"></p>
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <p style="text-align:center"><img src="../images/acco/h2/room5h2.jpg" style="width:600px"></p>
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <p style="text-align:center"><img src="../images/acco/h2/roomh2.jpg" style="width:600px"></p>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="../images/acco/h2/roomh2.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="../images/acco/h2/room5h2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="../images/acco/h2/room3h2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="../images/acco/h2/room4h2.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="../images/acco/h2/room5h2.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="../images/acco/h2/roomh2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+        </div>
+    </div>
+</div>
+
+
+<div id="btnContainer">
+    <button class="btns" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+    <button class="btns active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+</div>
+<br>
+
+<div class="rows">
+    <div class="columns" style="background-color:#aaa;">
+        <h2>Hotel Two</h2>
+
+        <div class="input-container" >
+            <i class="fa fa-fw fa-home"></i>
+            single room in house
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-fw fa-wrench"></i>
+            Sparkling clean
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-fw fa-user"></i>
+            Super Host
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-fw fa-envelope"></i>
+            High Rating
+        </div>
+    </div>
+    <div class="columns" style="background-color:#bbb;">
+        <h2>Introduction</h2>
+        <p>Unwind in the leafy courtyard of this extraordinary Surry Hills home. Classic aesthetics blend with eccentric vintage charm and decor. Watch the city from the balcony, or venture out from the doorstep as most hot spots are only a short walk away.</p>
+    </div>
+</div>
+
+<div class="rows">
+    <div class="columns" style="background-color:#ccc;">
+        <h2>Amenities</h2>
+        <p>Kitchen &#x2714;</p>
+        <p>Heating &#x2714;</p>
+        <p>Shampoo &#x2714;</p>
+        <p>Indoor fireplace &#x2714;</p>
+        <p>Washing machine &#x2714;</p>
+        <p>Air conditioning &#x2714;</p>
+    </div>
+    <div class="columns" style="background-color:#ddd;">
+        <h2>Display in Google Map</h2>
+        <img src="../images/acco/h2/room3h2.jpg" style="width:60%" alt="Mountains and fjords">
+    </div>
+</div>
+
+
+
+
+
+<script>
+    /*
+    for pictures in front
+     */
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
+
+<script>
+    // Get the elements with class="column"
+    var elements = document.getElementsByClassName("columns");
+
+    // Declare a loop variable
+    var i;
+
+    // List View
+    function listView() {
+        for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "100%";
+        }
+    }
+
+    // Grid View
+    function gridView() {
+        for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "50%";
+        }
+    }
+
+    /* Optional: Add active class to the current button (highlight it) */
+    var container = document.getElementById("btnContainer");
+    var btns = container.getElementsByClassName("btns");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+
 </body>
 </html>

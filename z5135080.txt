@@ -38,8 +38,10 @@ page in a better way. I edited result page for better look.
 
 -----------------------------------------------------------------------------------------------------------
 Week 6
-I designed and wrote User Information Management System Epic accommodation information page User Interface design 
-section.
+I designed and wrote User Information Management System Epic accommodation information page User Interface 
+design section. To display the information in a better way, I did some research on how to create a portfolio 
+gallery with filtering.
+
 -----------------------------------------------------------------------------------------------------------
 Week 7
 Week 8

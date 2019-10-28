@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SearchResult</title>
+    <link rel="stylesheet" href="../css/filtering.css">
+</head>
+<body>
+<!--Buttons on right corner -->
+<button onclick="window.location.href='personalPage.html'"style=" cursor: pointer; background-color: transparent ; border-color:transparent; float :right">personal Information</button>
+<button onclick="window.location.href='login.html'" style="cursor: pointer; background-color: transparent ; border-color:transparent; float :right">sign in</button>
+<button onclick="window.location.href='userInformationUpdate/update.html'"style="cursor: pointer; background-color: transparent; border-color:transparent; float:right">sign up</button>
+<button id="provider" onclick="alert('Please Log in!')" onclick="window.location.href='provider.html'"style="cursor: pointer;background-color: transparent ;border-color:transparent; float :right">become a host</button>
+<h2>Top-rated places to stay</h2>
+
+
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('nature')"> Low Price</button>
+    <button class="btn" onclick="filterSelection('cars')"> Rating: 4+</button>
+    <div class="dropdownng">
+        <button class="btn">Guest</button>
+        <div class="dropdownng-content">
+            Number: <input type="text" value="1" /><button>Add</button>
+        </div>
+    </div>
+
+    <div class="dropdownnt">
+        <button class="btn">Type Of Place</button>
+        <div class="dropdownnt-content">
+            Hotel Room:<input type="checkbox" id="myChecka"  onclick="filterSelection('people')">
+            <br>
+            Private Room:<input type="checkbox" id="myCheckb"  onclick="filterSelection('nature')">
+            <br>
+            Entire Place:<input type="checkbox" id="myCheckc"  onclick="filterSelection('cars')">
+        </div>
+    </div>
+
+    <div class="dropdownna">
+        <button class="btn">More</button>
+        <div class="dropdownna-content">
+            <div class="header">
+                <h2>Mega Menu</h2>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3>Amenities</h3>
+                    Kitchen:<input type="checkbox" id="myCheckd"  onclick="filterSelection('cars')">
+                    <br>
+                    Heating:<input type="checkbox" id="myChecke"  onclick="filterSelection('nature')">
+                    <br>
+                    Shampoo:<input type="checkbox" id="myCheckf"  onclick="filterSelection('people')">
+                    <br>
+                    Indoor fireplace:<input type="checkbox" id="myCheckk"  onclick="filterSelection('nature')">
+                    <br>
+                    Washing machine:<input type="checkbox" id="myCheckl"  onclick="filterSelection('cars')">
+                    <br>
+                    Air conditioning:<input type="checkbox" id="myChecko"  onclick="filterSelection('nature')">
+                    <br>
+                </div>
+
+                <div class="column">
+                    <h3>Beds and Rooms</h3>
+                    Beds: <input type="text" value="1" /><button class="button">Add
+                </button>
+                    <br>
+                    Single Room: <input type="text" value="1" /><button class="button">Add
+                </button>
+                    <br>
+                    Double Room: <input type="text" value="1" /><button class="button">Add
+                </button>
+                    <br>
+                </div>
+
+                <div class="column">
+                    <h3>Provider Type</h3>
+                    Personal:<input type="checkbox" id="my3"  onclick="filterSelection('nature')">
+                    <br>
+                    Company:<input type="checkbox" id="my24"  onclick="filterSelection('cars')">
+                    <br>
+                </div>
+
+                <div class="column">
+                    <h3>Property type</h3>
+                    House:<input type="checkbox" id="my5"  onclick="filterSelection('people')">
+                    <br>
+                    Apartment:<input type="checkbox" id="my6"  onclick="filterSelection('cars')">
+                    <br>
+                    Cabin:<input type="checkbox" id="my1"  onclick="filterSelection('nature')">
+                    <br>
+                    Cottage:<input type="checkbox" id="my2"  onclick="filterSelection('cars')">
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+    <div class="column nature">
+        <div class="content">
+            <img src="../images/search/acco1.jpg" alt="acco1" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Mountains</h4>
+        </div>
+    </div>
+    <div class="column nature">
+        <div class="content">
+            <img src="../images/search/acco2.jpg" alt="acco2" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Lights</h4>
+        </div>
+    </div>
+    <div class="column nature">
+        <div class="content">
+            <img src="../images/search/acco3.jpg" alt="acco3" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Forest</h4>
+        </div>
+    </div>
+
+    <div class="column cars">
+        <div class="content">
+            <img src="../images/search/acco4.jpg" alt="acco4" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Retro</h4>
+        </div>
+    </div>
+    <div class="column cars">
+        <div class="content">
+            <img src="../images/search/acco5.jpg" alt="acco5" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Fast</h4>
+        </div>
+    </div>
+    <div class="column cars">
+        <div class="content">
+            <img src="../images/search/acco6.jpg" alt="acco6" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Classic</h4>
+        </div>
+    </div>
+
+    <div class="column people">
+        <div class="content">
+            <img src="../images/search/acco7.jpg" alt="acco7" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Girl</h4>
+        </div>
+    </div>
+    <div class="column people">
+        <div class="content">
+            <img src="../images/search/acco8.jpg" alt="acco8" style="width:100%" onclick="window.location.href='accoinformation.html'">
+            <h4>Man</h4>
+        </div>
+    </div>
+
+    <!-- END GRID -->
+</div>
+<script>
+    filterSelection("all") // Execute the function and show all columns
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+
+    // Show filtered elements
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+                element.className += " " + arr2[i];
+            }
+        }
+    }
+
+    // Hide elements that are not selected
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+</body>
+</html>
+
