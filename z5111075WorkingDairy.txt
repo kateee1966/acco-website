@@ -24,3 +24,5 @@ In the forth week. I set up the basic structure of this project. In the model pa
 
 In the fifth week. I write some basic objects that we will use in the model package. Secondly, I learned structure of HTTP and how to use servlet. In the next week, I will finish the functions in sign up servlet, sign in servlet and publish new accommodation servlet.
 
+22/10/2019 - 29/10/2019
+In the sixth week, I complete the learning of servlet. I finished the druid deployment and the login servlet. In this week, I will finish signup servlet and search servlet.
