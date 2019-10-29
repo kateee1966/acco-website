@@ -42,4 +42,6 @@ Week 6
 2, rewrite homepage file and rewrite css
 3, fix search button, let it can link with search page
 4, modify login page.
-
+-----------------------------------------------------------------------------
+Week 7
+1, 
