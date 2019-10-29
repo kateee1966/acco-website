@@ -1,8 +1,13 @@
 CompanyAccommodation {
 
     varchar accommodationID;
-    ArrayList<String> photoPath;
-    double privePerDay;
+    varchar photoPath1;
+    varchar photoPath2;
+    varchar photoPath3;
+    varchar photoPath4;
+    varchar photoPath5;
+    varchar photoPath6;
+    double privatePerDay;
     varchar city;
     varchar suburbs;
     varchar address;
@@ -10,7 +15,7 @@ CompanyAccommodation {
     varchar hotelType;
     Date avaliable;
     Boolean pet;
-    User owner; // user
+    varchar owner; // userID
     int guestNum;
 
     int star;
@@ -25,8 +30,13 @@ CompanyAccommodation {
 PersonalAccommodation {
 
     varchar accommodationID;
-    ArrayList<String> photoPath;
-    double privePerDay;
+    varchar photoPath1;
+    varchar photoPath2;
+    varchar photoPath3;
+    varchar photoPath4;
+    varchar photoPath5;
+    varchar photoPath6;
+    double privatePerDay;
     varchar city;
     varchar suburbs;
     varchar address;
@@ -34,7 +44,7 @@ PersonalAccommodation {
     varchar hotelType;
     Date avaliable;
     Boolean pet;
-    User owner; // user
+    varchar owner; // userID
     int guestNum;
 
     int roomNumber;
@@ -48,7 +58,7 @@ PersonalAccommodation {
     int airCondition;
     int television;
     int dryer;
-varchar descriptionInDetails;
+    varchar descriptionInDetails;
 
 }
 
@@ -105,15 +115,13 @@ IndividualUser {
     varchar cardName;
     int expireMonth;
     int expireYear;
-    ArrayList<Order> soldOrderList; //
-    ArrayList<Order> boughtOrderLIst; //
     double rate;
 
 }
 
 Order {
     varchar accommodationID;
-    User seller; //user
-    User buyer; //user
+    varchar seller; //userID
+    varchar buyer; //userID
     Date orderCreationDate;
 }
