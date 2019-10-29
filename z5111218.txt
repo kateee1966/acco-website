@@ -41,5 +41,5 @@ Week 6
 1, build editInformation page and personalPage page for user and view/edit their information
 2, rewrite homepage file and rewrite css
 3, fix search button, let it can link with search page
-3, modify login page.
+4, modify login page.
 
