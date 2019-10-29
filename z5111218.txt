@@ -16,7 +16,8 @@ Week 3
 2, Discuss about which language we might be used in this project
 3, Write project proposal, my part is "Accommodation Advertising Module" 
 and I finished it in the end of this week. Because my main job is frontend 
-so I need to practice my skill about frontend language like react to build a delicate and all-sided website.
+so I need to practice my skill about frontend language like react to build a delicate
+and all-sided website.
 
 -----------------------------------------------------------------------------
 Week 4
@@ -30,15 +31,20 @@ good web and I wrote some css and JavaScript files to decorate provider page.
 
 -----------------------------------------------------------------------------
 Week 5
-1, In lab Shengchen taught me to use IDEA because he said it will easy to link backend and frontend.
-2, Use IDEA to build userInformationUpdate pages and write some css and JavaScript files to let it looks good.
-3, Rewrite sign up page to add more functions for user can update necessary Informations when they register.
-4, Discussed with Wenfei about filters and buttons in search pages, provider some personal suggests.
+1, In lab Shengchen taught me to use IDEA because he said it will easy to link 
+backend and frontend.
+2, Use IDEA to build userInformationUpdate pages and write some css and JavaScript
+files to let it looks good.
+3, Rewrite sign up page to add more functions for user can update necessary
+Informations when they register.
+4, Discussed with Wenfei about filters and buttons in search pages, provider
+some personal suggests.
 5, linked these buttons with matched pages. 
 
 -----------------------------------------------------------------------------
 Week 6
-1, build editInformation page and personalPage page for user and view/edit their information
+1, build editInformation page and personalPage page for user and view/edit 
+their information
 2, rewrite homepage file and rewrite css
 3, fix search button, let it can link with search page
 4, modify login page.
