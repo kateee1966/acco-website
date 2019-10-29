@@ -45,8 +45,8 @@ gallery with filtering.
 -----------------------------------------------------------------------------------------------------------
 Week 7
 Modify all finished UI design pages for a better presentation. Start building connection between frontend and
-backend.
-
+backend. 
+1. display reesult: not necessary 6 pics, change into auto
 -----------------------------------------------------------------------------------------------------------
 Week 8
 Week 9
