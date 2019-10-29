@@ -29,5 +29,11 @@ I also review some knowledge about SQL and primary key for designing the databas
 week5
 
 Add more objects and some attributes to these objects, add the constructors, getters and setters to the objects.
-I read some sourse code which implements the sign in and sign up functionality. 
-Continued learning about the database buliding techniques.
+I read some source code which implements the sign in and sign up functionality.
+Continued learning about the database building techniques.
+-----------------------------------------------------------------------------------------------------------
+week6
+
+Designed the tables, relations, primary keys and foreign keys for the database. Which is based on the Java
+objects in the Accommodation/src/com.accommodation/model.
+Install MySQL database application and make some initializations of the software to build the database.
