@@ -1,0 +1,119 @@
+CompanyAccommodation {
+
+    varchar accommodationID;
+    ArrayList<String> photoPath;
+    double privePerDay;
+    varchar city;
+    varchar suburbs;
+    varchar address;
+    int postCode;
+    varchar hotelType;
+    Date avaliable;
+    Boolean pet;
+    User owner; // user
+    int guestNum;
+
+    int star;
+    varchar roomType;
+    int bedNumber;
+    varchar bedType;
+    boolean breakfast;
+    boolean pickupAndDeliveryService;
+
+}
+
+PersonalAccommodation {
+
+    varchar accommodationID;
+    ArrayList<String> photoPath;
+    double privePerDay;
+    varchar city;
+    varchar suburbs;
+    varchar address;
+    int postCode;
+    varchar hotelType;
+    Date avaliable;
+    Boolean pet;
+    User owner; // user
+    int guestNum;
+
+    int roomNumber;
+    int bedNumber;
+    int bathroomNumber;
+    int kitchenNumber;
+    int balconyNumber;
+    int parking;
+    int washingMachine;
+    int heater;
+    int airCondition;
+    int television;
+    int dryer;
+varchar descriptionInDetails;
+
+}
+
+SingleRoom {
+     int howLongHowBeenDecorated;
+     int roomNumber;
+     int bedNumber;
+     int parking;
+     boolean bathroom;
+     boolean kitchen;
+     boolean balcony;
+     boolean washingMachine;
+     boolean heater;
+     boolean airCondition;
+     boolean television;
+     boolean dryer;
+     varchar descriptionInDetails;
+}
+
+CompanyUser {
+
+    varchar userID;
+    varchar userName;
+    varchar password;
+    varchar profilePhotoPath;
+
+    varchar websiteLink;
+    varchar address;
+    varchar contactNumber;
+    varchar hotelType;
+
+}
+
+IndividualUser {
+
+    varchar userID;
+    varchar userName;
+    varchar password;
+    varchar profilePhotoPath;
+
+    varchar phoneContact;
+    varchar salutation;
+    varchar gender;
+    varchar firstName;
+    varchar lastName;
+    varchar email;
+    varchar zip;
+    varchar state;
+    varchar address;
+    varchar country;
+    varchar cardType;
+    varchar cardNum;
+    varchar cvc;
+    varchar cardName;
+    int expireMonth;
+    int expireYear;
+    ArrayList<Order> soldOrderList; //
+    ArrayList<Order> boughtOrderLIst; //
+    double rate;
+
+}
+
+Order {
+    varchar accommodationID;
+    User seller; //user
+    User buyer; //user
+    Date orderCreationDate;
+}
