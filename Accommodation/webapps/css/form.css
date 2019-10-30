@@ -620,6 +620,4 @@ disappear when the field is clicked
 .css_form .form_buttons input {
     behavior:url(/PIE.htc);
 }
-.css_form .select_element {
-    *behavior:none;
-}
+

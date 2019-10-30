@@ -50,4 +50,7 @@ their information
 4, modify login page.
 -----------------------------------------------------------------------------
 Week 7
-1, 
+1, provider里personal的bug改一下
+2, 抓取数据
+3，当用户名重复时需要display一句话
+4，email重复时display

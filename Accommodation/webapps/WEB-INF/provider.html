@@ -23,101 +23,99 @@
 
 <form class="css_form">
 
-
     <fieldset>
-
-        <label for="text_field" class="left_element">Location <span class="required">*</span></label>
-
+        <label for="address" class="left_element">Address <span class="required">*</span></label>
         <div class="tooltip">
-
-            <input type="text" name="text_field" value="" size="30" id="text_field" placeholder="Random Name" class="tooltip">
+            <input type="text" name="address" value="" size="30" id="address" placeholder="Random Name" class="tooltip">
             <span class="tooltip_content">
                 <strong>This is a tooltip message</strong><br />You can add here any description to help users fill the form.
             </span>
-
         </div>
-
     </fieldset>
 
 
     <fieldset>
-
-        <label for="another_field" class="left_element">Address 1 <span class="required">*</span></label>
-
+        <label for="city" class="left_element">City<span class="required">*</span></label>
         <div class="tooltip">
-
-            <input type="text" name="another_field" value="" size="30" id="another_field">
+            <input type="text" name="city" value="" size="30" id="city">
             <span class="tooltip_content">
                 <strong>This is a tooltip message</strong><br />You can add here any description to help users fill the form.
             </span>
-
         </div>
-
     </fieldset>
 
+
     <fieldset>
+    <label for="suburb" class="left_element">Suburb<span class="required">*</span></label>
+    <div class="tooltip">
+        <input type="text" name="suburb" value="" size="30" id="suburb">
+        <span class="tooltip_content">
+                <strong>This is a tooltip message</strong><br />You can add here any description to help users fill the form.
+            </span>
+    </div>
+    </fieldset>
 
-        <label for="another_field" class="left_element">Address 2 </label>
 
+    <fieldset>
+        <label for="code" class="left_element">Zip Code<span class="required">*</span></label>
         <div class="tooltip">
-
-            <input type="text" name="another_field" value="" size="30" id="another_field_2">
+            <input type="text" name="code" value="" size="30" id="code">
             <span class="tooltip_content">
                 <strong>This is a tooltip message</strong><br />You can add here any description to help users fill the form.
             </span>
-
         </div>
-
     </fieldset>
+
+
     <fieldset>
-        <label for="another_field" class="left_element">Available Date<span class="required">*</span></label>
+        <label for="price" class="left_element">price per week <span class="required">*</span></label>
+        <div class="tooltip">
+            <input type="text" name="price" value="" size="30" id="price">
+            <span class="tooltip_content">
+                <strong>This is a tooltip message</strong><br />You can add here any description to help users fill the form.
+            </span>
+        </div>
+    </fieldset>
+
+
+    <fieldset>
+        <label class="left_element">Available Date<span class="required">*</span></label>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
-
         <input type="text" name="datefilter" style="border: 1px solid rgb(250, 234, 234);
             border-radius: 4px;
             width: 230px;
             padding: 5px;
             line-height: 24px;" value="" />
-
         <script type="text/javascript">
             $(function() {
-
                 $('input[name="datefilter"]').daterangepicker({
                     autoUpdateInput: false,
                     locale: {
                         cancelLabel: 'Clear'
                     }
                 });
-
                 $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
                     $(this).val(picker.startDate.format('DD/MM/YYYY') + ' - ' + picker.endDate.format('DD/MM/YYYY'));
                 });
-
                 $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
                     $(this).val('');
                 });
-
             });
         </script>
     </fieldset>
 
 
     <fieldset>
-
         <label class="left_element">Type of provider <span class="required">*</span></label>
-
         <ul class="form_options">
             <li><label><input value = "1"  onchange="tpe(this.value)" type="radio" name="radio-type_group"><span></span></label><span class="desc_text">Personal</span></li>
             <li><label><input value = "2"  onchange="tpe(this.value)" type="radio" name="radio-type_group"><span></span></label><span class="desc_text">Company</span></li>
-
         </ul>
-
         <script language="javascript">
             function tpe(obj){
-
                 if(obj =="1"){
                     document.getElementById("personal2").style.display="";
                     document.getElementById("personal").style.display="";
@@ -149,22 +147,17 @@
     </fieldset>
 
     <fieldset id="hotel" style="display: none">
-
         <label class="left_element">Type of your hotel<span class="required">*</span></label>
-
         <ul class="form_options">
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">car hotel</span></li>
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Unit hotel</span></li>
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Apartment hotel</span></li>
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Hotel</span></li>
         </ul>
-
     </fieldset>
 
     <fieldset id="hotel1" style="display: none">
-
         <label class="left_element">Level of your hotel<span class="required">*</span></label>
-
         <ul class="form_options">
             <li><label><input type="radio" name= "radio-group"><span></span></label><span class="desc_text">no star</span></li>
             <li><label><input type="radio" name = "radio-group"><span></span></label><span class="desc_text">1 star</span></li>
@@ -178,27 +171,21 @@
     </fieldset>
 
     <fieldset id="personal" style="display: none">
-
         <label class="left_element">Choose type of rent <span class="required">*</span></label>
-
         <ul class="form_options">
             <li><label><input type="radio" checked="checked" name="radio-group"><span></span></label><span class="desc_text">Entire place</span></li>
             <li><label><input type="radio" name="radio-group"><span></span></label><span class="desc_text">Private room</span></li>
             <li><label><input type="radio" name="radio-group"><span></span></label><span class="desc_text"></span>Hotel room</li>
         </ul>
-
     </fieldset>
 
     <fieldset id="personal1" style="display: none">
-
         <label class="left_element">Type of your place <span class="required">*</span></label>
-
         <ul class="form_options">
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">House</span></li>
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Unit</span></li>
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Apartment</span></li>
         </ul>
-
     </fieldset>
 
     <fieldset id="personal2" style="display: none">
@@ -214,9 +201,7 @@
     </fieldset>
 
     <fieldset id="personal4" style="display: none">
-
         <label class="left_element">Amenities<span class="required">*</span></label>
-
         <ul class="form_options">
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Kitchen</span></li>
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Free Park</span></li>
@@ -225,14 +210,11 @@
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">Lift</span></li>
             <li><label><input type="checkbox"><span></span></label><span class="desc_text">TV</span></li>
         </ul>
-
     </fieldset>
 
     
     <fieldset>
-
         <label class="left_element">Max number of guest <span class="required">*</span></label>
-
         <div class="select_element">
             <select name="select" required onchange="chg(this)">
                 <option value="1">1</option>
@@ -249,8 +231,6 @@
             </select>
             <input id="select_else" style="display:none">
         </div>
-
-
         <script language="javascript">
             function chg(obj)
             {
@@ -260,39 +240,31 @@
                     document.getElementById("select_else").style.display="none";
             }
         </script>
-
     </fieldset>
 
 
     <fieldset>
-
         <label class="left_element">Able to feed pet?</label>
-
         <fieldset class="form_toggle">
             <input id="toggle1" type="checkbox" checked />
             <label class="toggle_label" for="toggle1"><span>YES</span><span>NO</span></label>
             <span class="toggle_button"></span>
         </fieldset>
-
     </fieldset>
 
 
 
     <fieldset>
-
         <label for="comments" class="left_element">Description</label>
         <textarea name="comments" id="comments" rows="8" cols="30"></textarea>
-
     </fieldset>
 
 
     <fieldset>
-
         <ul class="form_buttons">
             <li><input type="reset" value="Reset" /></li>
             <li><input type="submit" value="Submit" /></li>
         </ul>
-
     </fieldset>
 
 
@@ -300,8 +272,6 @@
 
 
 </form>
-
-
 
 </body>
 </html>
