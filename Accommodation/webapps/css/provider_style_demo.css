@@ -97,11 +97,6 @@
 			text-shadow: none;
 		}
 
-		::-webkit-selection {
-			background-color: rgba(130, 210, 239, 0.99);
-			color: #000;
-			text-shadow: none;
-		}
 
 		::selection {
 			background-color: rgba(130, 210, 239, 0.99);
@@ -185,7 +180,7 @@
 					appearance: none;
 
 			-webkit-transition: border 0.2s linear, box-shadow 0.2s linear, background-color .35s ease;
-					transition: border 0.2s linear, box-shadow 0.2s linear, background-color .35 ease;
+					transition: border 0.2s linear, box-shadow 0.2s linear, background-color .35s ease;
 		}
 
 		#tmm-form-wizard input[type="text"]:focus,
@@ -888,7 +883,7 @@
 			/*	Stage Icons	 */
 			.head-icon {
 				display: block;
-				background: url(../images/header-sprite.png) no-repeat 0 0;
+				background: url(../images/provider/header-sprite.png) no-repeat 0 0;
 			}
 
 				.head-icon.head-icon-lock { background-position: 10px -22px; }
@@ -916,7 +911,7 @@
 			/*	Form Icons  */	
 			.form-icon {
 				display: block;
-				background: url(../images/sprite.png) no-repeat 0 0;
+				background: url(../images/provider/sprite.png) no-repeat 0 0;
 			}
 
 				.form-icon.form-icon-user  { background-position: right -19px; }
