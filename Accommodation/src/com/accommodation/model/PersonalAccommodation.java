@@ -4,139 +4,128 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class PersonalAccommodation extends Accommodation {
-    private int howLongHowBeenDecorated;
+    private String structureType;
+    private String rentType;
+    private Integer bedroom;
+    private Integer bathroom;
+    private Integer kitchen;
+    private Boolean park;
+    private Boolean gym;
+    private Boolean wifi;
+    private Boolean lift;
+    private Boolean television;
 
-    private int roomNumber;
-    private int bedNumber;
-    private int bathroomNumber;
-    private int kitchenNumber;
-    private int balconyNumber;
-    private int parking;
-    private int washingMachine;
-    private int heater;
-    private int airCondition;
-    private int television;
-    private int dryer;
-    private String descriptionInDetails;
-
-    public PersonalAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, String hotelType, Date avaliable, Boolean pet, User owner, int guestNum, int howLongHowBeenDecorated, int roomNumber, int bedNumber, int bathroomNumber, int kitchenNumber, int balconyNumber, int parking, int washingMachine, int heater, int airCondition, int television, int dryer, String descriptionInDetails) {
-        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, hotelType, avaliable, pet, owner, guestNum);
-        this.howLongHowBeenDecorated = howLongHowBeenDecorated;
-        this.roomNumber = roomNumber;
-        this.bedNumber = bedNumber;
-        this.bathroomNumber = bathroomNumber;
-        this.kitchenNumber = kitchenNumber;
-        this.balconyNumber = balconyNumber;
-        this.parking = parking;
-        this.washingMachine = washingMachine;
-        this.heater = heater;
-        this.airCondition = airCondition;
-        this.television = television;
-        this.dryer = dryer;
-        this.descriptionInDetails = descriptionInDetails;
+    @Override
+    public String toString() {
+        return "PersonalAccommodation{" +
+                "structureType='" + structureType + '\'' +
+                ", rentType='" + rentType + '\'' +
+                ", bedroom=" + bedroom +
+                ", bathroom=" + bathroom +
+                ", kitchen=" + kitchen +
+                ", park=" + park +
+                ", gym=" + gym +
+                ", wifi=" + wifi +
+                ", lift=" + lift +
+                ", television=" + television +
+                "} " + super.toString();
     }
 
-    public int getHowLongHowBeenDecorated() {
-        return howLongHowBeenDecorated;
+    public String getStructureType() {
+        return structureType;
     }
 
-    public void setHowLongHowBeenDecorated(int howLongHowBeenDecorated) {
-        this.howLongHowBeenDecorated = howLongHowBeenDecorated;
+    public void setStructureType(String structureType) {
+        this.structureType = structureType;
     }
 
-    public int getRoomNumber() {
-        return roomNumber;
+    public String getRentType() {
+        return rentType;
     }
 
-    public void setRoomNumber(int roomNumber) {
-        this.roomNumber = roomNumber;
+    public void setRentType(String rentType) {
+        this.rentType = rentType;
     }
 
-    public int getBedNumber() {
-        return bedNumber;
+    public Integer getBedroom() {
+        return bedroom;
     }
 
-    public void setBedNumber(int bedNumber) {
-        this.bedNumber = bedNumber;
+    public void setBedroom(Integer bedroom) {
+        this.bedroom = bedroom;
     }
 
-    public int getBathroomNumber() {
-        return bathroomNumber;
+    public Integer getBathroom() {
+        return bathroom;
     }
 
-    public void setBathroomNumber(int bathroomNumber) {
-        this.bathroomNumber = bathroomNumber;
+    public void setBathroom(Integer bathroom) {
+        this.bathroom = bathroom;
     }
 
-    public int getKitchenNumber() {
-        return kitchenNumber;
+    public Integer getKitchen() {
+        return kitchen;
     }
 
-    public void setKitchenNumber(int kitchenNumber) {
-        this.kitchenNumber = kitchenNumber;
+    public void setKitchen(Integer kitchen) {
+        this.kitchen = kitchen;
     }
 
-    public int getBalconyNumber() {
-        return balconyNumber;
+    public Boolean getPark() {
+        return park;
     }
 
-    public void setBalconyNumber(int balconyNumber) {
-        this.balconyNumber = balconyNumber;
+    public void setPark(Boolean park) {
+        this.park = park;
     }
 
-    public int getParking() {
-        return parking;
+    public Boolean getGym() {
+        return gym;
     }
 
-    public void setParking(int parking) {
-        this.parking = parking;
+    public void setGym(Boolean gym) {
+        this.gym = gym;
     }
 
-    public int getWashingMachine() {
-        return washingMachine;
+    public Boolean getWifi() {
+        return wifi;
     }
 
-    public void setWashingMachine(int washingMachine) {
-        this.washingMachine = washingMachine;
+    public void setWifi(Boolean wifi) {
+        this.wifi = wifi;
     }
 
-    public int getHeater() {
-        return heater;
+    public Boolean getLift() {
+        return lift;
     }
 
-    public void setHeater(int heater) {
-        this.heater = heater;
+    public void setLift(Boolean lift) {
+        this.lift = lift;
     }
 
-    public int getAirCondition() {
-        return airCondition;
-    }
-
-    public void setAirCondition(int airCondition) {
-        this.airCondition = airCondition;
-    }
-
-    public int getTelevision() {
+    public Boolean getTelevision() {
         return television;
     }
 
-    public void setTelevision(int television) {
+    public void setTelevision(Boolean television) {
         this.television = television;
     }
 
-    public int getDryer() {
-        return dryer;
+    public PersonalAccommodation(){
+        super();
     }
 
-    public void setDryer(int dryer) {
-        this.dryer = dryer;
-    }
-
-    public String getDescriptionInDetails() {
-        return descriptionInDetails;
-    }
-
-    public void setDescriptionInDetails(String descriptionInDetails) {
-        this.descriptionInDetails = descriptionInDetails;
+    public PersonalAccommodation(String accommodationID, String photoPath0, String photoPath1, String photoPath2, String photoPath3, String photoPath4, String photoPath5, String photoPath6, String photoPath7, String photoPath8, Double pricePerDay, String city, String address, Integer postCode, Date startDate, Date endDate, Boolean pet, String userName, Integer guestNum, String description, String accommodationType, String structureType, String rentType, Integer bedroom, Integer bathroom, Integer kitchen, Boolean park, Boolean gym, Boolean wifi, Boolean lift, Boolean television) {
+        super(accommodationID, photoPath0, photoPath1, photoPath2, photoPath3, photoPath4, photoPath5, photoPath6, photoPath7, photoPath8, pricePerDay, city, address, postCode, startDate, endDate, pet, userName, guestNum, description, accommodationType);
+        this.structureType = structureType;
+        this.rentType = rentType;
+        this.bedroom = bedroom;
+        this.bathroom = bathroom;
+        this.kitchen = kitchen;
+        this.park = park;
+        this.gym = gym;
+        this.wifi = wifi;
+        this.lift = lift;
+        this.television = television;
     }
 }
