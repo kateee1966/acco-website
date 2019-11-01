@@ -27,6 +27,7 @@
 		<link rel="stylesheet" href="../../css/provider_layout.css" />
 		<link rel="stylesheet" href="../../css/providerfont.css" />
 		<link rel="stylesheet" href="../../css/modal.css" />
+		<script src="../../js/checkInfor.js"></script>
 	</head>
 	<body>
 
@@ -120,27 +121,14 @@
 							<div class="row">
 								
 								<div class="col-md-8 col-sm-7">
+									<script src="../../js/checkInfor.js"></script>
+									<form action="#" class = "input-block">
+										<p><label for="userName">Your name: <input type="text" size="30" id="userName" class="reqd"></label></p>
+										<p><label for="passwd1">Choose a password: <input type="password" id="passwd1" class="reqd"></label></p>
+										<p><label for="passwd2">Verify password: <input type="password" id="passwd2" class="reqd passwd1"></label></p>
+										<p><input class="button button-contro" type="submit" value="Submit"> <input class="button button-contro" type="reset"></p>
 
-									<fieldset class="input-block">
-										<label for="username">Username</label>
-										<input type="text" id="username" class="form-icon form-icon-user"  placeholder="Login" required />
-									</fieldset><!--/ .input-login-->
-									<script>
-										function check2pwd() {
-											if(password.value != pass_confirm.value) {
-												alert("different password")
-											}
-										}
-									</script>
-									<fieldset class="input-block">
-										<label for="password">Password</label>
-											<input value = "" type="password" id="password" placeholder="Password" required />
-									</fieldset><!--/ .input-password-->
-									
-									<fieldset class="input-block">
-										<label for="pass_confirm">Confirm password</label>
-										<input value = "" type="password" id="pass_confirm" onblur="check2pwd()" placeholder="Password" required />
-									</fieldset><!--/ .input-conf-password-->
+									</form>
 
 
 								</div>
@@ -148,11 +136,6 @@
 							</div><!--/ .row-->
 							
 						</div><!--/ .form-wizard-->
-
-							<div class="prev" style="display: none;">
-								<button class="button button-control" type="button" ><span>Prev Step <b>Account Information</b></span></button>
-								<div class="button-divider"></div>
-							</div>
 
 							<div class="next">
 								<button id="modelBtn" class="button button-control" type="button" onclick="window.location.href='update1.html'"><span>Next Step <b>Personal Information</b></span></button>
