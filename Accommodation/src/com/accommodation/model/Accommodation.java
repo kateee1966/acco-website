@@ -6,31 +6,55 @@ import java.util.Date;
 
 public class Accommodation {
     private String accommodationID; //
-    private ArrayList<String> photoPath;
-    private double pricePerDay; //
-    private String city; //
-    private String suburbs; //
-    private String address;
-    private int postCode; //
-    private String hotelType;
-    private Date avaliable;
-    private Boolean pet;
-    private User owner;
-    private int guestNum;
 
-    public Accommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, String hotelType, Date avaliable, Boolean pet, User owner, int guestNum) {
-        this.accommodationID = accommodationID;
-        this.photoPath = photoPath;
-        this.pricePerDay = pricePerDay;
-        this.city = city;
-        this.suburbs = suburbs;
-        this.address = address;
-        this.postCode = postCode;
-        this.hotelType = hotelType;
-        this.avaliable = avaliable;
-        this.pet = pet;
-        this.owner = owner;
-        this.guestNum = guestNum;
+    private String photoPath0;
+    private String photoPath1;
+    private String photoPath2;
+    private String photoPath3;
+    private String photoPath4;
+    private String photoPath5;
+    private String photoPath6;
+    private String photoPath7;
+    private String photoPath8;
+
+    private Double pricePerDay;
+    private String city;
+    private String address;
+    private Integer postCode;
+    private Date startDate;
+    private Date endDate;
+    private Boolean pet;
+    private String userName;
+    private Integer guestNum;
+    private String description;
+
+    private String accommodationType;
+
+    @Override
+    public String toString() {
+        return "Accommodation{" +
+                "accommodationID='" + accommodationID + '\'' +
+                ", photoPath0='" + photoPath0 + '\'' +
+                ", photoPath1='" + photoPath1 + '\'' +
+                ", photoPath2='" + photoPath2 + '\'' +
+                ", photoPath3='" + photoPath3 + '\'' +
+                ", photoPath4='" + photoPath4 + '\'' +
+                ", photoPath5='" + photoPath5 + '\'' +
+                ", photoPath6='" + photoPath6 + '\'' +
+                ", photoPath7='" + photoPath7 + '\'' +
+                ", photoPath8='" + photoPath8 + '\'' +
+                ", pricePerDay=" + pricePerDay +
+                ", city='" + city + '\'' +
+                ", address='" + address + '\'' +
+                ", postCode=" + postCode +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", pet=" + pet +
+                ", userName='" + userName + '\'' +
+                ", guestNum=" + guestNum +
+                ", description='" + description + '\'' +
+                ", accommodationType='" + accommodationType + '\'' +
+                '}';
     }
 
     public String getAccommodationID() {
@@ -41,19 +65,83 @@ public class Accommodation {
         this.accommodationID = accommodationID;
     }
 
-    public ArrayList<String> getPhotoPath() {
-        return photoPath;
+    public String getPhotoPath0() {
+        return photoPath0;
     }
 
-    public void setPhotoPath(ArrayList<String> photoPath) {
-        this.photoPath = photoPath;
+    public void setPhotoPath0(String photoPath0) {
+        this.photoPath0 = photoPath0;
     }
 
-    public double getPricePerDay() {
+    public String getPhotoPath1() {
+        return photoPath1;
+    }
+
+    public void setPhotoPath1(String photoPath1) {
+        this.photoPath1 = photoPath1;
+    }
+
+    public String getPhotoPath2() {
+        return photoPath2;
+    }
+
+    public void setPhotoPath2(String photoPath2) {
+        this.photoPath2 = photoPath2;
+    }
+
+    public String getPhotoPath3() {
+        return photoPath3;
+    }
+
+    public void setPhotoPath3(String photoPath3) {
+        this.photoPath3 = photoPath3;
+    }
+
+    public String getPhotoPath4() {
+        return photoPath4;
+    }
+
+    public void setPhotoPath4(String photoPath4) {
+        this.photoPath4 = photoPath4;
+    }
+
+    public String getPhotoPath5() {
+        return photoPath5;
+    }
+
+    public void setPhotoPath5(String photoPath5) {
+        this.photoPath5 = photoPath5;
+    }
+
+    public String getPhotoPath6() {
+        return photoPath6;
+    }
+
+    public void setPhotoPath6(String photoPath6) {
+        this.photoPath6 = photoPath6;
+    }
+
+    public String getPhotoPath7() {
+        return photoPath7;
+    }
+
+    public void setPhotoPath7(String photoPath7) {
+        this.photoPath7 = photoPath7;
+    }
+
+    public String getPhotoPath8() {
+        return photoPath8;
+    }
+
+    public void setPhotoPath8(String photoPath8) {
+        this.photoPath8 = photoPath8;
+    }
+
+    public Double getPricePerDay() {
         return pricePerDay;
     }
 
-    public void setPricePerDay(double pricePerDay) {
+    public void setPricePerDay(Double pricePerDay) {
         this.pricePerDay = pricePerDay;
     }
 
@@ -65,14 +153,6 @@ public class Accommodation {
         this.city = city;
     }
 
-    public String getSuburbs() {
-        return suburbs;
-    }
-
-    public void setSuburbs(String suburbs) {
-        this.suburbs = suburbs;
-    }
-
     public String getAddress() {
         return address;
     }
@@ -81,28 +161,28 @@ public class Accommodation {
         this.address = address;
     }
 
-    public int getPostCode() {
+    public Integer getPostCode() {
         return postCode;
     }
 
-    public void setPostCode(int postCode) {
+    public void setPostCode(Integer postCode) {
         this.postCode = postCode;
     }
 
-    public String getHotelType() {
-        return hotelType;
+    public Date getStartDate() {
+        return startDate;
     }
 
-    public void setHotelType(String hotelType) {
-        this.hotelType = hotelType;
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
     }
 
-    public Date getAvaliable() {
-        return avaliable;
+    public Date getEndDate() {
+        return endDate;
     }
 
-    public void setAvaliable(Date avaliable) {
-        this.avaliable = avaliable;
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
     }
 
     public Boolean getPet() {
@@ -113,20 +193,65 @@ public class Accommodation {
         this.pet = pet;
     }
 
-    public User getOwner() {
-        return owner;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setOwner(User owner) {
-        this.owner = owner;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public int getGuestNum() {
+    public Integer getGuestNum() {
         return guestNum;
     }
 
-    public void setGuestNum(int guestNum) {
+    public void setGuestNum(Integer guestNum) {
         this.guestNum = guestNum;
     }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getAccommodationType() {
+        return accommodationType;
+    }
+
+    public void setAccommodationType(String accommodationType) {
+        this.accommodationType = accommodationType;
+    }
+
+    public Accommodation(String accommodationID, String photoPath0, String photoPath1, String photoPath2, String photoPath3, String photoPath4, String photoPath5, String photoPath6, String photoPath7, String photoPath8, Double pricePerDay, String city, String address, Integer postCode, Date startDate, Date endDate, Boolean pet, String userName, Integer guestNum, String description, String accommodationType) {
+        this.accommodationID = accommodationID;
+        this.photoPath0 = photoPath0;
+        this.photoPath1 = photoPath1;
+        this.photoPath2 = photoPath2;
+        this.photoPath3 = photoPath3;
+        this.photoPath4 = photoPath4;
+        this.photoPath5 = photoPath5;
+        this.photoPath6 = photoPath6;
+        this.photoPath7 = photoPath7;
+        this.photoPath8 = photoPath8;
+        this.pricePerDay = pricePerDay;
+        this.city = city;
+        this.address = address;
+        this.postCode = postCode;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.pet = pet;
+        this.userName = userName;
+        this.guestNum = guestNum;
+        this.description = description;
+        this.accommodationType = accommodationType;
+    }
+
+    public Accommodation(){
+
+    }
+
 
 }

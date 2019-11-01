@@ -4,70 +4,40 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class CompanyAccommodation extends Accommodation {
-    private int star;
-    private String roomType;
+    private String hotelType;
+    private Integer star;
 
-    private int bedNumber;
-    private String bedType;
+    public CompanyAccommodation(){
 
-    private boolean breakfast;
-    private boolean pickupAndDeliveryService;
-
-    public CompanyAccommodation(String accommodationID, ArrayList<String> photoPath, double pricePerDay, String city, String suburbs, String address, int postCode, String hotelType, Date avaliable, Boolean pet, User owner, int guestNum, int star, String roomType, int bedNumber, String bedType, boolean breakfast, boolean pickupAndDeliveryService) {
-        super(accommodationID, photoPath, pricePerDay, city, suburbs, address, postCode, hotelType, avaliable, pet, owner, guestNum);
-        this.star = star;
-        this.roomType = roomType;
-        this.bedNumber = bedNumber;
-        this.bedType = bedType;
-        this.breakfast = breakfast;
-        this.pickupAndDeliveryService = pickupAndDeliveryService;
     }
 
-    public int getStar() {
+    @Override
+    public String toString() {
+        return "CompanyAccommodation{" +
+                "hotelType='" + hotelType + '\'' +
+                ", star=" + star +
+                "} " + super.toString();
+    }
+
+    public String getHotelType() {
+        return hotelType;
+    }
+
+    public void setHotelType(String hotelType) {
+        this.hotelType = hotelType;
+    }
+
+    public Integer getStar() {
         return star;
     }
 
-    public void setStar(int star) {
+    public void setStar(Integer star) {
         this.star = star;
     }
 
-    public String getRoomType() {
-        return roomType;
-    }
-
-    public void setRoomType(String roomType) {
-        this.roomType = roomType;
-    }
-
-    public int getBedNumber() {
-        return bedNumber;
-    }
-
-    public void setBedNumber(int bedNumber) {
-        this.bedNumber = bedNumber;
-    }
-
-    public String getBedType() {
-        return bedType;
-    }
-
-    public void setBedType(String bedType) {
-        this.bedType = bedType;
-    }
-
-    public boolean isBreakfast() {
-        return breakfast;
-    }
-
-    public void setBreakfast(boolean breakfast) {
-        this.breakfast = breakfast;
-    }
-
-    public boolean isPickupAndDeliveryService() {
-        return pickupAndDeliveryService;
-    }
-
-    public void setPickupAndDeliveryService(boolean pickupAndDeliveryService) {
-        this.pickupAndDeliveryService = pickupAndDeliveryService;
+    public CompanyAccommodation(String accommodationID, String photoPath0, String photoPath1, String photoPath2, String photoPath3, String photoPath4, String photoPath5, String photoPath6, String photoPath7, String photoPath8, Double pricePerDay, String city, String address, Integer postCode, Date startDate, Date endDate, Boolean pet, String userName, Integer guestNum, String description, String ownerType, String hotelType, Integer star) {
+        super(accommodationID, photoPath0, photoPath1, photoPath2, photoPath3, photoPath4, photoPath5, photoPath6, photoPath7, photoPath8, pricePerDay, city, address, postCode, startDate, endDate, pet, userName, guestNum, description, ownerType);
+        this.hotelType = hotelType;
+        this.star = star;
     }
 }

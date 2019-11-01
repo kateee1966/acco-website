@@ -3,16 +3,41 @@ package com.accommodation.model;
 import java.util.Date;
 
 public class Order {
+    private String OrderID;
     private String accommodationID;
-    private User seller;
-    private User buyer;
-    private Date orderCreationDate;
+    private String sellerName;
+    private String buyerName;
+    private Date orderCreatedDate;
 
-    public Order(String accommodationID, User seller, User buyer, Date orderCreationDate) {
+    public Order(){
+
+    }
+
+    public Order(String orderID, String accommodationID, String sellerName, String buyerName, Date orderCreatedDate) {
+        this.OrderID = orderID;
         this.accommodationID = accommodationID;
-        this.seller = seller;
-        this.buyer = buyer;
-        this.orderCreationDate = orderCreationDate;
+        this.sellerName = sellerName;
+        this.buyerName = buyerName;
+        this.orderCreatedDate = orderCreatedDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "OrderID='" + OrderID + '\'' +
+                ", accommodationID='" + accommodationID + '\'' +
+                ", sellerName='" + sellerName + '\'' +
+                ", buyerName='" + buyerName + '\'' +
+                ", orderCreatedDate=" + orderCreatedDate +
+                '}';
+    }
+
+    public String getOrderID() {
+        return OrderID;
+    }
+
+    public void setOrderID(String orderID) {
+        OrderID = orderID;
     }
 
     public String getAccommodationID() {
@@ -23,27 +48,27 @@ public class Order {
         this.accommodationID = accommodationID;
     }
 
-    public User getSeller() {
-        return seller;
+    public String getSellerName() {
+        return sellerName;
     }
 
-    public void setSeller(User seller) {
-        this.seller = seller;
+    public void setSellerName(String sellerName) {
+        this.sellerName = sellerName;
     }
 
-    public User getBuyer() {
-        return buyer;
+    public String getBuyerName() {
+        return buyerName;
     }
 
-    public void setBuyer(User buyer) {
-        this.buyer = buyer;
+    public void setBuyerName(String buyerName) {
+        this.buyerName = buyerName;
     }
 
-    public Date getOrderCreationDate() {
-        return orderCreationDate;
+    public Date getOrderCreatedDate() {
+        return orderCreatedDate;
     }
 
-    public void setOrderCreationDate(Date orderCreationDate) {
-        this.orderCreationDate = orderCreationDate;
+    public void setOrderCreatedDate(Date orderCreatedDate) {
+        this.orderCreatedDate = orderCreatedDate;
     }
 }

@@ -3,13 +3,13 @@ package com.accommodation.model;
 import java.util.ArrayList;
 
 public class IndividualUser extends User{
-    private String phoneContact;
     private String salutation;
     private String gender;
     private String firstName;
     private String lastName;
     private String email;
-    private String zip;
+    private String phoneContact;
+    private Integer zip;
     private String state;
     private String address;
     private String country;
@@ -17,41 +17,35 @@ public class IndividualUser extends User{
     private String cardNum;
     private String cvc;
     private String cardName;
-    private int expireMonth;
-    private int expireYear;
-    private ArrayList<Order> soldOrderList;
-    private ArrayList<Order> boughtOrderLIst;
-    private double rate;
+    private Integer expireMonth;
+    private Integer expireYear;
+    private Double rate;
 
-    public IndividualUser(String userID, String userName, String password, String profilePhotoPath, String phoneContact, String salutation, String gender, String firstName, String lastName, String email, String zip, String state, String address, String country, String cardType, String cardNum, String cvc, String cardName, int expireMonth, int expireYear, ArrayList<Order> soldOrderList, ArrayList<Order> boughtOrderLIst, double rate) {
-        super(userID, userName, password, profilePhotoPath);
-        this.phoneContact = phoneContact;
-        this.salutation = salutation;
-        this.gender = gender;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.zip = zip;
-        this.state = state;
-        this.address = address;
-        this.country = country;
-        this.cardType = cardType;
-        this.cardNum = cardNum;
-        this.cvc = cvc;
-        this.cardName = cardName;
-        this.expireMonth = expireMonth;
-        this.expireYear = expireYear;
-        this.soldOrderList = soldOrderList;
-        this.boughtOrderLIst = boughtOrderLIst;
-        this.rate = rate;
+    public IndividualUser(){
+
     }
 
-    public String getPhoneContact() {
-        return phoneContact;
-    }
-
-    public void setPhoneContact(String phoneContact) {
-        this.phoneContact = phoneContact;
+    @Override
+    public String toString() {
+        return "IndividualUser{" +
+                "salutation='" + salutation + '\'' +
+                ", gender='" + gender + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneContact='" + phoneContact + '\'' +
+                ", zip=" + zip +
+                ", state='" + state + '\'' +
+                ", address='" + address + '\'' +
+                ", country='" + country + '\'' +
+                ", cardType='" + cardType + '\'' +
+                ", cardNum='" + cardNum + '\'' +
+                ", cvc='" + cvc + '\'' +
+                ", cardName='" + cardName + '\'' +
+                ", expireMonth=" + expireMonth +
+                ", expireYear=" + expireYear +
+                ", rate=" + rate +
+                "} " + super.toString();
     }
 
     public String getSalutation() {
@@ -94,11 +88,19 @@ public class IndividualUser extends User{
         this.email = email;
     }
 
-    public String getZip() {
+    public String getPhoneContact() {
+        return phoneContact;
+    }
+
+    public void setPhoneContact(String phoneContact) {
+        this.phoneContact = phoneContact;
+    }
+
+    public Integer getZip() {
         return zip;
     }
 
-    public void setZip(String zip) {
+    public void setZip(Integer zip) {
         this.zip = zip;
     }
 
@@ -158,43 +160,48 @@ public class IndividualUser extends User{
         this.cardName = cardName;
     }
 
-    public int getExpireMonth() {
+    public Integer getExpireMonth() {
         return expireMonth;
     }
 
-    public void setExpireMonth(int expireMonth) {
+    public void setExpireMonth(Integer expireMonth) {
         this.expireMonth = expireMonth;
     }
 
-    public int getExpireYear() {
+    public Integer getExpireYear() {
         return expireYear;
     }
 
-    public void setExpireYear(int expireYear) {
+    public void setExpireYear(Integer expireYear) {
         this.expireYear = expireYear;
     }
 
-    public ArrayList<Order> getSoldOrderList() {
-        return soldOrderList;
-    }
-
-    public void setSoldOrderList(ArrayList<Order> soldOrderList) {
-        this.soldOrderList = soldOrderList;
-    }
-
-    public ArrayList<Order> getBoughtOrderLIst() {
-        return boughtOrderLIst;
-    }
-
-    public void setBoughtOrderLIst(ArrayList<Order> boughtOrderLIst) {
-        this.boughtOrderLIst = boughtOrderLIst;
-    }
-
-    public double getRate() {
+    public Double getRate() {
         return rate;
     }
 
-    public void setRate(double rate) {
+    public void setRate(Double rate) {
+        this.rate = rate;
+    }
+
+    public IndividualUser(String userName, String password, String salutation, String gender, String firstName, String lastName, String email, String phoneContact, Integer zip, String state, String address, String country, String cardType, String cardNum, String cvc, String cardName, Integer expireMonth, Integer expireYear, Double rate) {
+        super(userName, password);
+        this.salutation = salutation;
+        this.gender = gender;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.phoneContact = phoneContact;
+        this.zip = zip;
+        this.state = state;
+        this.address = address;
+        this.country = country;
+        this.cardType = cardType;
+        this.cardNum = cardNum;
+        this.cvc = cvc;
+        this.cardName = cardName;
+        this.expireMonth = expireMonth;
+        this.expireYear = expireYear;
         this.rate = rate;
     }
 }
