@@ -37,3 +37,9 @@ week6
 Designed the tables, relations, primary keys and foreign keys for the database. Which is based on the Java
 objects in the Accommodation/src/com.accommodation/model.
 Install MySQL database application and make some initializations of the software to build the database.
+-----------------------------------------------------------------------------------------------------------
+week7
+
+Build database, write servlet and dao files to implement the login and sign up functionality. Connect with the 
+front end and debug the login functionality. Continue to write code of implementing the search functionality.
+------------------------------------------------------------------------------------------------------------
