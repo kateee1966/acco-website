@@ -53,6 +53,17 @@ Week 7
 1, Fix bugs in provider page, at first just can answer one question, after 
 ask tutor I fix this problem
 2, Delete duplicate question like kitchen(in provider page), email(in sign up page)
-2, 抓取数据
-3，当用户名重复时需要display一句话
-4，email重复时display
+3, Add javascript functions about: in sign up html: 
+	a. if username is empty, it will display: Username Cannot be Empty;
+	b. If password is empty, it will display: Password Cannot be Empty;
+	c. If password is shorter than 8-digit, it will display: Password 
+	   should longer than 8-digit
+	d. If password and verify password is not the same, it will display:
+	   Different Password
+4, Add functions about: if not sign in, user cannot open the "become a host" page
+   And it will display alert: Please Log in! 
+5, rebuild model.
+-----------------------------------------------------------------------------
+Week 8
+1, link html with backend and able to log in and signup
+2, 
