@@ -66,4 +66,12 @@ ask tutor I fix this problem
 -----------------------------------------------------------------------------
 Week 8
 1, link html with backend and able to log in and signup
-2, 
+2, able to change password and store new password in database
+3, write review page to let user can review place after they finished their orders,
+add checkout page for pay
+4, able to show personal informations, user can also change their informations by click
+edit information button 
+5, rebuild provider page and try to link with backend
+-----------------------------------------------------------------------------
+Week 9
+1, 
