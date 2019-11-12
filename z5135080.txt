@@ -45,9 +45,11 @@ gallery with filtering.
 -----------------------------------------------------------------------------------------------------------
 Week 7
 Modify all finished UI design pages for a better presentation. Start building connection between frontend and
-backend. 
-1. display reesult: not necessary 6 pics, change into auto
+backend. display reesult: not necessary 6 pics, change into auto。
 -----------------------------------------------------------------------------------------------------------
 Week 8
+Together with Mark, successifully build the page to display personal accommodaition and company accommodation.
+In addition, starting connecting order and search html with backend.
+-----------------------------------------------------------------------------------------------------------
 Week 9
 Week 10
