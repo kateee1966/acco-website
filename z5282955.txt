@@ -42,11 +42,27 @@ week 7
 
 Build database, write servlet and dao files to implement the login and sign up functionality. Connect with the 
 front end and debug the login functionality. Continue to write code of implementing the search functionality.
+Something weird occured to our project framework, the IDEA IDE we used has some bug when using git push. The 
+src forder of our framework cannot be uploaded to github, so we gave up using github and send code to each other
+through WeChat. So there will not be much commit record on github.
 -----------------------------------------------------------------------------------------------------------
 week 8
 
 Write the backend part of implementing the searching system. As there is some inconsistent idea of the attributes
 of the searching between frontend and backend, we discussed and changed some attributes of the model to unify the 
 project. After finishing the backend part, we attempted to connect with frontend but encountered HTTP 500 error,
-so we spent some time debuging our backend and finally succeeded.
+so we spent some time debuging our backend and fixed part of the problems.
 ------------------------------------------------------------------------------------------------------------
+week 9
+
+I tried a few days debugging the servlet files of the search module, I searched for solutions on stackoverflow 
+and other websites, but still couldn't fix all of them. My backend partner helped me debug the code but
+some weird errors like multiple timezone error can't be solved, I think my framework is not very up to date and 
+frontend files are also not the latest. Maybe this is the reason why it doesn't work and my teammate suggested 
+to implement the search part instead of me. Then I got no coding work to do so I started to write the final report.
+------------------------------------------------------------------------------------------------------------
+week 10
+
+I attended the lecture which overview the whole project process and assessment and also including how to write
+the report. My group shared a template report and I looked into it. After understanding the structure, I wrote 
+the abstract and background part of the report to make a start. 
