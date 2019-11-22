@@ -76,9 +76,9 @@ week 10
 I attended the lecture which overview the whole project process and assessment and also including how to write
 the report. My group shared a template report and I looked into it. After understanding the structure, I wrote 
 the abstract and background part of the report to make a start. As the search part is rewrote by my teammate so 
-the implementation is not familiar to me so he suggest me not to write this part. As we cannot use github to 
-upload code so my part of search implementation is not online. So I uploaded 4 files I have written to the root
-directory which are SearchFirstServlet.java SearchSecondServlet.java and AccommodationDao.java and AccommodationTest.java
-. The first 2 files are written by myself. And in the Dao file, the searchLocation, searchOtherPersonal and 
-searchOthersCompany methods are written by myself. AccommodationDao.java is written by myself as unit test to 
-test and debug my search part.
+the implementation is not familiar to me so I suggest to give some feedback and correction after my teammate 
+finishes this part of report. As we cannot use github to upload code so my part of search implementation is not 
+online. So I uploaded 4 files I have written to the root directory which are SearchFirstServlet.java 
+SearchSecondServlet.java and AccommodationDao.java and AccommodationTest.java . The first 2 files are written 
+by myself. And in the Dao file, the searchLocation, searchOtherPersonal and searchOthersCompany methods are 
+written by myself. AccommodationDao.java is written by myself as unit test to test and debug my search part.
