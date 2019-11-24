@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------
+Abstract
+With the rapid development of the Internet and Information Technology, there is a trend that more and more services are transplanted to the Internet. This kind of evolution has led to significant success to countless enterprises and industry.
+
+Similar to many other countries and regions, Australia especially New South Wales is a famous tourism destination. Accommodation industry is raised by the development of tourism. It’s fairly reasonable for developing accommodation web portal to extend the business.
+
+Our COMP9900 group (superNB) aims to develop a most convenient and helpful website which can provide the renters with the latest accommodation information and most effective searching strategies and many other advantages among the current websites.
+
+This report aims to introduce the background of the various accommodation websites as well as the current drawbacks and advantages. Also we will give an introduction of the system structure, functionality design and details, third party utilities, some highlights and challenges of the project and a detailed user documentation which give the user a guidance of our web portal.
+
+------------------------------------------------------------------------------
+
+Background
+The fact is that the explosion of Internet leads to many significant changes to people’s daily life. Many traditional industries such as foodservice and cinemas have already developed relatively complete system of online service, and more and more customers are attracted by this modern way.
+
+Online services provide the customers with better experience than the traditional business pattern. And the advantages also fit in the accommodation renting field which our group aims to implement. To be specific, the process of searching, viewing, comparison and paying for the accommodation will all be more convenient and fast. Customers never have to come to the  estate agencies and some other places to find their dream house. They don’t need to go to the real place to check the house and can just view the pictures on the website instead. Everything can be done via the website, it saves a lot of time and attracts more and more customers. 
+
+Feedback is also more convenient to be done through the website, customers can just leave their rating and suggestions by simply typing. These feedback is not only a kind of evaluation to the accommodations but also useful guidance to customers who are interested in the house or hotel. However, the traditional accommodation service cannot provide such comprehensive feedback. Although some big brand hotel may be able to provide such feedback through their corporate image, it cannot be more accurate and objective than the feedback from real customers.
+
+The current accommodation websites like Airbnb are one of the most famous booking platform over the world. However there are still some drawbacks due to the various requirements from the customers. For example, Airbnb mainly provide accommodation host by individual providers. There should be more types of properties provided for those who want to live in a branded hotel or even Motel. 
+
+Another disadvantage among these websites is that the searching part provides too few filters or searching attributes. This may cause user’s inconvenience as many people would like to search for accommodations in more details such as whether there is a gym and whether  pets are permitted to the property etc. Airbnb and other websites only provide the check-in and check-out date, guest number and locations but there are no such detailed characteristics. Although such characteristics can be viewed in the details of the properties but it’s time-wasting for customers who has many requirements.
+
+Considering extreme convenience of online service and the problems of the current websites, a better performed accommodation portal can be established by adding these features and will attract more customers and accommodation providers in New South Wales.
