@@ -1,0 +1,92 @@
+﻿COMP3900 Working Diary
+
+Student Name: Wenfei Guo
+
+zID: z5135080
+
+-----------------------------------------------------------------------------------------------------------------
+Week 1
+Research potential projects. Collecting data and view all sample project. 
+In order to have a better understanding of different projects and prepare for discussion. 
+
+-----------------------------------------------------------------------------------------------------------------
+Week 2
+Group formed in webcms3. As a scrum master, I created the GitHub account for the team. 
+Project 7 Accommodation Web Portal is selected by group members. Together with Tao Bai, 
+I wrote the SYSTEM MODULES AND FLOW section. In addition, I wrote the Epic (Visitor Request
+Module part), Project Methodoldgy and Weekly Meeting Times sections of the proposal. 
+I also researched related website such as airhub.
+
+-----------------------------------------------------------------------------------------------------------------
+Week 3
+I wrote the Project Team Skill Set and Stand-up/Sprint Schedule sections 
+of the proposal. I also found and discussed with the team all available software tools 
+and libraries that we can use for the project. Together with Tao Bai, I wrote the 
+Visitor Request Module Epic's User Interface design section（searchpage.html）.
+
+-----------------------------------------------------------------------------------------------------------------
+Week 4
+I designed and wrote Accommodation Information Epic User Interface design section(accoinformation.html and
+companyaccoinfo.html). The programming language I applied is HTML,JS and CSS. Also, I did some research on
+w3school.com on different dropdown styles for better Frontend Functions.
+
+-----------------------------------------------------------------------------------------------------------------
+Week 5
+I designed and wrote Order Epic User Interface design section (The order function is on accoinformation.html，
+together with personal accommodationinformation in accoinformation.html). Tao and I are learning React in order 
+to display the website in a better way. I searched related pictures of accommodaition in order to show search
+result page in a better way.   
+
+-----------------------------------------------------------------------------------------------------------------
+Week 6
+I designed and wrote Display complete orders and rating order epic User Interface design section (CompleteOrder.html). 
+To display the information in a better way, I did some research on how to create a portfolio 
+gallery with filtering. I also learned Jquery and ajax for connection with backend. However, since (Zhichao He
+z5282955) did not finish related backend part, I had to wait until next week to connect.
+
+------------------------------------------------------------------------------------------------------------------
+Week 7
+I did some research on how to create responsive slideshow gallery with CSS and JavaScript. And using this 
+technique to implement the displayment of accommodation (related css and js has been added, in accoinformation.html 
+and companyaccoinfo.html). 
+I also asked (Zhichao He z5282955) if he need any help with his backend part and provided him some suggestions on coding. 
+However, since (Zhichao He z5282955) did not finish related backend part again, I had to wait until next week to connect.
+
+-------------------------------------------------------------------------------------------------------------------
+Week 8
+Together with (Shengchen XUE z5111075), successifully build the frontend and backend connection to display personal 
+accommodaition and company accommodation(accoinformation.html&companyaccoinfo.html&ConcreteAccommodationServlet).
+
+(Zhichao He z5282955) did not finish related backend part(search) again, he provide me code that has over ten bugs in a file 
+even before running. I spent a whole day helping him to debug and found he have serious logic issue. 
+
+To make sure the project can be finished on time. The group (include Zhichao He z5282955) agreed to let (Shengchen XUE z5111075)
+do all the backend coding(include search part). 
+
+Together with (Shengchen XUE z5111075), successifully build the frontend and backend connection to do searching in the
+first place(homepage.html&SearchFirstServlet).
+
+-------------------------------------------------------------------------------------------------------------------
+Week 9
+Together with (Shengchen XUE z5111075), successifully build the frontend and backend connection to make 
+orders (accoinformation.html & MakeOrderServlet).
+Together with (Shengchen XUE z5111075), successifully build the frontend and backend connection to filtering the result
+from homepage searching (searchpage.html & SearchSecondServlet).
+Together with (Shengchen XUE z5111075), successifully build the frontend and backend connection to display complete
+Order each in an individual page (CompleteOrder.html & DisplayOrderServlet).
+Together with (Shengchen XUE z5111075), successifully build the frontend and backend connection to rate the displayed
+order (CompleteOrder.html & RateUserServlet).
+
+-------------------------------------------------------------------------------------------------------------------
+Week 10
+Combine all the files into Tao Bai's laptop for demo. Rebuild database and debug with (Shengchen XUE z5111075) and 
+(Tao Bai z5111218) to make sure all function details can be presented. I also prepared potential questions that may be
+asked in demo.
+
+In final report, I wrote the overreview part's frontend section. In addition, I wrote Functionality Design's Accommodation 
+Booking Module part, Accommodation Search Module part and Visitor Request Module part. Also, I finished Functionality Details' Accommodation Booking Module part, Accommodation Search Module part and Visitor Request Module part. 
+
+-------------------------------------------===-----------------------------------------------------------------------
+Week 11
+As the scrum master, I modify the project report and submitted it on time. In addition, I gathered our code and
+submitted it for our team.

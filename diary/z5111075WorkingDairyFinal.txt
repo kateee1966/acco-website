@@ -1,0 +1,40 @@
+COMP9900 Working Dairy
+Name: Shengchen XUE
+zID: z5111075 
+
+
+16/09/2019 - 22/09/2019
+The first week, the main aim of our team is to select an appropriate project. Most of members would like to do project one. For project one, I found some videos about Dialogflow and try to learn some models in machine learning. However, I haven't finished any AI courses before so on the first lab I need to discuss with my teammates that what tasks I can take in this project. In the second lab is the first meeting of our team so I need to know which part I can do in this project and which part I need to write in the proposal.
+
+
+
+23/09/2019 - 29/09/2019
+
+In the second week, lecturer released Project Seven so our team decided to do the Project Seven, an accommodation website. The main tasks I have done in this week is finished my part in the proposal, my part is the epics of managing user information and user feedback management. My main job in this project is the backend management so in the next week I need to rent a net server or using Google cloud to make sure our team will have a database to store the account information. Also, I need to improve what I written in the proposal and help the whole team to finish the final proposal. 
+
+30/09/2019 - 07/10/2019
+
+In the third week, we start to finish the project proposal. I modified the background part and aim part. Also, I provided the architecture mock-up. Some additional idea was added into the proposal (like Google map service and extra hotel service). In the programming part, although I learned MySQL before, I still need time to learn how to build the backend of the websites. I also reviewed JavaSE in this week because we use Java as the backend. In the next week, our backend group need to finish the basic structure of the backend and implements some interface in order to catch up the schedule.
+
+07/10/2019 - 14/10/2019 
+
+In the forth week. I set up the basic structure of this project. In the model package, I create some objects that we will use in the MySQL. In the service package, I finished some basic function or behavior that we will use in the user login. Also, I finished the encrypt function and decrypt function for user part. In the weekend, I learned how to use Tomcat so in the next week we can connect front end and back end to implement the user sign up and sign in. Also, I initialized MySQL database and add some basic data. Then if I finished some functions to control database, I could write some basic JUnit test to ensure these functions work well.
+
+14/10/2019 - 21/10/2019
+
+In the fifth week. I modified some basic objects that we will use in the model package and modified structure of database. Secondly, I learned structure of HTTP and how to use servlet. Also, I finished signup, sign in and check valid account functions, these functions work well. In the next week, I will finish learning of servlets, then I will write some servlets to finish these functionalities. Before the end of Week6, I will finish the backend of user information management and start to write some backend of accommodation upload.
+
+22/10/2019 - 29/10/2019
+In the sixth week, I complete the learning of servlet. I finished the druid deployment and all the user information servlets. Also, some basic functions for uploading accommodations and deleting accommodations are created. However, the accommodation upload could only upload messages but not images. For that reason, in this week, I need to fix this problem and finish function and relevant servlets of the orderList and postItemLists. By the way, JUnit tests are written, and all the previous functionalities are good.
+
+30/10/2019 - 04/11/2019           
+In the seventh week, I finished many servlets except image upload, accommodation information and making order functionalities. Furthermore, I help frontend to connect login and signup backend (user information management module).  In the next week, I need to finish accommodation information page servlet and help my team mates to connect backend and fronend. 
+
+05/11/2019 - 11/11/2019
+In the eighth week, I completed most of servlet. Also, I finished search first servlet because my backend team member didn't know how to write it. For that reason, I need to keep finishing the second search servlet. Also, in this week, half of frontend and backend are connected, including almost everything about user information management, first part of search and accommodation information display.
+
+12/11/2019 - 18/11/2019
+In the ninth week, I completed all the backend. About accommodation upload, I finished the image upload servlet in week 7, however I have no time to test it at that time. In this week, I test this function with frontend. In the front-back connection part, I finished all the connections including accommodation list, order list, second part of search, rating system and order management system.
+
+19/11/2019 - 25/11/2019
+I added some necessary test data that our team will use in the demo into the database then I finished all the things that I should do about report. I wrote the overview part, explained database design and everything about backend.

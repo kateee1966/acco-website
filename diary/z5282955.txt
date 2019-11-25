@@ -1,0 +1,39 @@
+COMP3900 Working Diary
+Student Name: Zhichao He
+zID: z5282955
+-----------------------------------------------------------------------------------------------------------
+week1
+
+Get familiar with the projects and do some research about them. 
+-----------------------------------------------------------------------------------------------------------
+week2
+
+Group formed. Some discussion and comparison about the projects, and preliminarily decided to choose 
+project one --- X-o-Bot. Then discussed the basic methods and techniques we will use in the development.
+Start to write the Project Proposal, I focus on the Accommonadation Request Module part.
+-----------------------------------------------------------------------------------------------------------
+week3
+
+Discuss about the UI design and some methods to connect the frontend and backend. Further discussed the 
+project and more functions. Add the classification part which differentiate different type of accommondations.
+Add some features about Google Maps and Auto-Recommendation system to the project, and add 2 Epics to the 
+Proposal which describe the two features.
+-----------------------------------------------------------------------------------------------------------
+week4
+
+Based on the framework of the project, I add some java objects and some features about them which will be 
+used in the database. I check the functions of the service package and make some modifications and added 
+some new functions. I start to think about the design of the database based on the requirements and functions.
+I also review some knowledge about SQL and primary key for designing the database.
+-----------------------------------------------------------------------------------------------------------
+week5
+
+Add more objects and some attributes to these objects, add the constructors, getters and setters to the objects.
+I read some source code which implements the sign in and sign up functionality.
+Continued learning about the database building techniques.
+-----------------------------------------------------------------------------------------------------------
+week6
+
+Designed the tables, relations, primary keys and foreign keys for the database. Which is based on the Java
+objects in the Accommodation/src/com.accommodation/model.
+Install MySQL database application and make some initializations of the software to build the database.

@@ -1,0 +1,144 @@
+COMP3900 Working Diary
+Student Name: Tao Bai
+zID: z5111218
+
+-----------------------------------------------------------------------------
+Week 2
+1, Group formed. Created "superNB" team.
+2, Have a rough idea of every teammate, discuss how to collaborate in best.
+3, Group discussion about the project spec, let project 1 be the rough plan.
+4, Ask some friends about chat bot and try to learn machine learning
+5, Learn react for frontend
+
+-----------------------------------------------------------------------------
+Week 3
+1, Because a new project be released, after discuss in lab we change to project 7
+2, Discuss about which language we might be used in this project
+3, Write project proposal, my part is "Accommodation Advertising Module" 
+and I finished it in the end of this week. Because my main job is frontend 
+so I need to practice my skill about frontend language like react to build a delicate
+and all-sided website.
+
+-----------------------------------------------------------------------------
+Week 4
+1, Begin to build first web: homepage.html, in this page the most difficult thing
+for me is design a suitable calendar for users to choose date. I try two ways to 
+write this and  after discuss with Wenfei we choose the second way: scope choose, 
+it means we just need one box, user can choose check in date and check out date in 
+one calendar.
+2, Designed and written provider.html by myself. This page is for users to provider 
+information of their place. I view many webpages like airbnb, anjuke, mayibanjia to 
+help me have enough inspiration to design a good web and I wrote some css and JavaScript 
+files to decorate provider page.
+3, Learned Ajax for prepared link data with backend.
+
+-----------------------------------------------------------------------------
+Week 5
+1, In lab Shengchen taught me to use IDEA because he said it will easy to link 
+backend and frontend.
+2, Use IDEA to build userInformationUpdate pages and write some css and JavaScript
+files to let it looks good.
+3, Rewritten sign up page( update.html, update1.html, update2.html, udpate3.html) by 
+myself to add more functions for user can update necessary Informations when they 
+register.
+4, Discussed with Wenfei about filters and buttons in search pages, provider
+some personal suggests.
+5, linked these buttons with matched pages. 
+
+-----------------------------------------------------------------------------
+Week 6
+1, Designed and written editInformation.html and personalPage.html by myself,
+for user and view/edit their information. My design thought is use personalPage.html
+to view information ( cannot be modified), and use editInformation.html to modify
+Information which was wrong to avoid user careless touch.
+2, rewritten homepage file and rewritten css by myself, for display a more suitable
+homepage to user.
+3, Added a homepage button on the top left corner on each page by myself, it will
+Very convenient for user to go back to homepage.
+4, fixed search button by myself, let it can jump to search page successfully.
+5, modify login page, learned how to check username and password, re-learned Ajax for 
+Prepare link with backend.
+6, I learned entry functions which is necessary in html.
+-----------------------------------------------------------------------------
+Week 7
+1, Fixed bugs in provider page, at first just can answer one question in whole page, 
+after ask tutor I fix this problem.
+2, Deleted duplicate question like kitchen(in provider page), email(in sign up page)
+3, Add javascript functions in signup html by myself, Let it can be display information 
+to hint User about cannot enter empty, cannot use duplicate username etc.
+4, Add functions about: if not sign in, user cannot open the "become a host" page
+   And it will display alert: Please Log in! 
+5, rebuild database model, learned how to use mySql and mySqlWorkBetch.
+6, I myself used Ajax to link update.html, update1.html, update2.html and update3.html
+with corresponding servlets which written by ShengChen and able to signup.
+Able to update Account information(user name, password), personal information
+and payment information After debug and connect by Shengchen and I. 
+7, Used Ajax to link login.html by myself with corresponding servlet which written by 
+Shengchen and able to log in, able to check username and password with database, 
+alert information if user enter wrong username or Password
+-----------------------------------------------------------------------------
+Week 8
+1, Designed and write checkout.html by myself.I also use java script and css to 
+build a modal about whether pay successfully.
+2, Written review.html by myself, make 5 stars for review mark about place and householder.
+3, Used Ajax by myself to link provider.html with corresponding servlets which written
+by ShengChen and able to update information in Step1 in provider.html. I still need to learn 
+how to update images into database.
+4, Used corresponding servlet which written by ShengChen, I used Ajax and let update3.html can 
+be able to display informations by myself. 
+5, Used corresponding servlet which written by ShengChen, let all "Prev Step" 
+Button can jump back to prev page and i used Ajax to let all information can still displayed 
+in pages for help user check and change wrong information conveniently by myself.
+6, I myself used corresponding servlet which written by ShengChen to let personalInformation.html
+Can be able to display user informaiton correctly. 
+7, I myself used corresponding servlet which written by ShengChen to check user whether is log 
+in in every pages. Wenfei help me do a drop-down box and I used on "Personal central" button,
+I also add necessary button into "Personal Central" button by myself, at here also need to use
+isLogIn Servlet which written by ShengChen to check whether is login to know which button need to
+Be display. My design thought is: display signing/signup when is not log in, display 
+"Personal Central" drop-down box button when is login and I realised it successfully.
+8, I myself used corresponding servlet which written by ShengChen to let it able to log out.
+-----------------------------------------------------------------------------
+Week 9
+1, After I learned how to update images with other datas, provider.html are able
+to update all information and images into database by corresponding servlet which 
+written By ShengChen. Deal all data in this page (use Ajax) by myself. 
+2, Written OrderList.html and ItemList.html by myself to display orderlies and item 
+list. Item list page can able to display all item list and rented item list, for user 
+Check items conveniently.
+3, Delete review.html and add 5 stars into CompleteOrder.html which written by Wenfei.
+4, I myself used Ajax to link OrderList and ItemList with corresponding servlet which 
+written by ShengChen to let OrderList and ItemList can able to display corresponding 
+informations with images.
+In itemList, I used entry functions to get information when page reloaded.
+solved how to display different list of all lists and rented lists. I myself also linked 
+"Click to View" button with accoinformation.html / companyaccinformation.html, send 
+necessary information to pages and servlet to let it able to jump to corresponding pages
+with necessary information like item id.
+I myself also used corresponding servlet to let "Delete" button can be able to delete place.
+In OrderItem I also used same way with ItemList. I myself linked review with CompleteOrder.html
+which written by Wenfei, let it able to send necessary information to corresponding servlet 
+which written by ShengChen to jump to CompleteOrder and display current informaiton.
+5, I myself used corresponding servlet which written by ShengChen to let it canoe 
+changed password, also used Ajax and javascript in this part to let it able to check 
+whether user entered right.
+-----------------------------------------------------------------------------
+Week 10
+1, Found some mistakes on accoinformation.html (about Order) and CompleteOrder.html(About review), 
+Fixed these bugs by myself.
+2, Happened some suddenly mistakes on signup, fixed by ShengChen and I.
+3, Add login modal on accoinformation.html by myself. Because through test, 
+I found that use normal login page will let user always jump back to homepage. 
+It was not very convenient for some users who had found a suitable accommodation 
+but forgot login. Use this login modal can able to login in this page
+And still stay at accoinformation.html after login.
+4, Because almost all functions were realized on my laptop so I tested many times
+for prepared demo On Wednesday.
+5, Written final report. I myself written all frontend part on Accommodation Advertising Module, 
+Accomodation Review Module, User Information Management Module and Google Map Module 
+in Functionality Design and Functionality Details, I myself also written parts of Accommodation
+Booking Module (Check-out part) in Functionality Design and Functionality Details.
+6, ScreenShotted all pages of our system for User documents in report, did some 
+labels on these screenshots.
+7, Exported database in mySql and sent it to ShengChen, compressed total project 
+code and sent it to Wenfei.
